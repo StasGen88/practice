@@ -1,0 +1,202 @@
+Script started on 2025-10-20 11:09:52+00:00 [COMMAND="bash --noprofile --norc" TERM="xterm" TTY="/dev/pts/4" COLUMNS="133" LINES="47"]
+[?2004hbash-5.2# git config --global y[Kuwer[K[K[Kserm[K,m[K[K.m[Kname "ST[KtasGen88"
+[?2004l[?2004hbash-5.2# git config --global user.name "StasGen88"[1P "StasGen88"[1P "StasGen88"[1P "StasGen88"[1P "StasGen88"m "StasGen88"[1P "StasGen88"e "StasGen88"m "StasGen88"a "StasGen88"i "StasGen88"l "StasGen88"[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"s"t"a"s"s"u"h"a"n"o"v"3"3"3"@"g"m"a"i"l","[1P"."c"o"m"
+[?2004l[?2004hbash-5.2# git config --global user.email "stassuhanov333@gmail.com"[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kinit.default [KBt[Kranch main
+[?2004l[?2004hbash-5.2# apt update
+[?2004l[33m0% [Working][0m            Hit:1 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+[33m0% [Waiting for headers][0m                        Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [Waiting for headers] [2 InRelease 14.2 kB/126 kB 11%][0m[33m0% [Waiting for headers] [2 InRelease 14.2 kB/126 kB 11%][0m                                                         Get:3 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+[33m0% [3 InRelease 11.8 kB/126 kB 9%] [2 InRelease 14.2 kB/126 kB 11%][0m[33m                                                                   0% [2 InRelease 54.7 kB/126 kB 43%][0m[33m0% [Waiting for headers] [2 InRelease 69.2 kB/126 kB 55%][0m                                                         Get:4 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+[33m0% [4 InRelease 20.2 kB/126 kB 16%] [2 InRelease 80.8 kB/126 kB 64%][0m[33m                                                                    0% [2 InRelease 80.8 kB/126 kB 64%][0m[33m0% [Waiting for headers] [2 InRelease 98.2 kB/126 kB 78%][0m                                                         Get:5 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+[33m0% [5 Components-amd64 8,610 B/175 kB 5%] [2 InRelease 118 kB/126 kB 94%][0m[33m                                                                         0% [2 InRelease 126 kB/126 kB 100%][0m                                   Get:6 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+                                   Get:7 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+[33m0% [7 Components-amd64 79.0 kB/377 kB 21%][0m[33m0% [5 Components-amd64 store 0 B] [7 Components-amd64 79.0 kB/377 kB 21%][0m[33m68% [5 Components-amd64 store 235 kB] [7 Components-amd64 79.0 kB/377 kB 21%][0m[33m                                                                             68% [7 Components-amd64 79.0 kB/377 kB 21%][0m[33m68% [6 Components-amd64 store 159 B] [7 Components-amd64 79.0 kB/377 kB 21%] [Waiting for headers][0m[33m                                                                                                  68% [7 Components-amd64 79.0 kB/377 kB 21%] [Waiting for headers][0m[33m                                                                 91% [Waiting for headers] [Waiting for headers][0m                                               Get:8 http://ru.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+[33m91% [Waiting for headers] [Waiting for headers][0m[33m91% [7 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m                                                                              Get:9 http://ru.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,132 B]
+[33m92% [7 Components-amd64 store 0 B] [9 Components-amd64 6,923 B/7,132 B 97%] [Waiting for headers][0m                                                                                                 Get:10 http://ru.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+                                                                                                 Get:11 http://ru.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+[33m                                                                                                 93% [7 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m                                                                              Get:12 http://ru.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+[33m                                                                              93% [7 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                        93% [Waiting for headers][0m[33m93% [8 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                        93% [Waiting for headers][0m[33m93% [9 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                        93% [Waiting for headers][0m[33m93% [10 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         93% [Waiting for headers][0m[33m93% [11 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         93% [Waiting for headers][0m[33m93% [12 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         94% [Waiting for headers][0m                         Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+[33m94% [13 Components-amd64 2,659 B/21.6 kB 12%][0m[33m                                             95% [Working][0m[33m95% [13 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                         95% [Waiting for headers][0m                         Get:14 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [208 B]
+[33m95% [14 Components-amd64 208 B/208 B 100%][0m[33m                                          95% [Working][0m             Get:15 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+[33m96% [15 Components-amd64 2,218 B/52.2 kB 4%][0m[33m96% [15 Components-amd64 2,218 B/52.2 kB 4%][0m[33m                                            100% [Waiting for headers][0m                          Get:16 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+[33m                          100% [Working][0m[33m100% [15 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m[33m100% [Working][0m              Fetched 1,024 kB in 1s (1,116 kB/s)
+a Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 4%Reading package lists... 4%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 40%Reading package lists... 40%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 60%Reading package lists... 60%Reading package lists... 63%Reading package lists... 63%Reading package lists... 69%Reading package lists... 69%Reading package lists... 74%Reading package lists... 74%Reading package lists... 78%Reading package lists... 78%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 91%Reading package lists... 91%Reading package lists... 95%Reading package lists... 95%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+83 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[?2004hbash-5.2# apr[Kt install git gh
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+gh is already the newest version (2.45.0-1ubuntu0.3).
+0 upgraded, 0 newly installed, 0 to remove and 83 not upgraded.
+[?2004hbash-5.2# gh auth setup-git --hostname githy[Kub.com
+[?2004l[?2004hbash-5.2# gh repo create --public practice
+[?2004lGraphQL: Name already exists on this account (createRepository)
+[?2004hbash-5.2# mkdir ~/practice && cd ~/practice
+[?2004l[?2004hbash-5.2# echi[Ko "#Краткое описание [KЭ[K" >> README .[K[K.md
+[?2004l[?2004hbash-5.2# git init
+[?2004lInitialized empty Git repository in /root/practice/.git/
+[?2004hbash-5.2# git add README.md
+[?2004l[?2004hbash-5.2# git commit -m "Fir[K[KIR[KRST[K[Ks[KST commit"
+[?2004l[main (root-commit) 0c6b697] FIRST commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004hbash-5.2# git branmc[K[Kch -M mani[K[Kin
+[?2004l[?2004hbash-5.2# git remote add origin https/[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pbranch -M maincommit -m "FIRST commit"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Padd README.mdinit[Kecho "#Краткое описание" >> README.md[C[C[C[C[C[C[C[C[C[C[4Pmkdir ~/practice && cd ~/practice[C[C[C[C[C[C[C[C[C[C[1Pgh repo create --public practice[C[C[C[C[C[C[C[C[C[C[C[C[Cauth setup-git --hostname github.com[C[C[C[C[C[C[C[C[C[C[21Papt install git gh[8Pupdategit config --global init.defaultBranch mainuser.email "stassuhanov333@gmail.com"[16Pname "StasGen88"[C[C[C[C[C[C[C[C[C[Cexit[K[2Plscd module1/task3[C[C[C[C[C[C[C[C[C[Cls[Kgit pull origin main[C[C[C[C[C[C[C[C[C[Cls[Kcd ~/practice_clone/practice/module1/task3[C[C[C[C[C[C[C[C[C[Cls[Kcd practice/module1/task3[C[C[C[C[C[C[C[C[C[C[5Pgit pull origin main[C[C[C[C[C[C[C[C[C[Ccd ~/practice_clone/[C[C[C[C[C[C[C[C[C[Cpwd[K[1Plscd ~/practice_clone/practice/module1/task3[C[C[C[C[C[C[C[C[C[Cls[Kcd ~/practice/module1/task3[C[C[C[C[C[C[C[C[C[Cls[Kcd module1/task2[5Ppractice~[K[2Pls--- a/etc_backup/alternatives/iptables-save[C[C[C[C[C[C[C[C[C[C[21Pindex 051d68b..0000000[C[C[C[C[C[C[C[C[C[Cdeleted file mode 120000[C[C[C[C[C[C[C[C[C[C[Ciff --git a/etc_backup/alternatives/iptables-save b/etc_backup/alternatives/iptables-save[C[C[C[C[C[C[C[C[C[C\ No newline at end of file[K[C[C[C[C[C[C[C[C[C[C-/usr/sbin/iptables-nft-restore[C[C[C[C[C[C[C[C[C[C[18P@@ -1 +0,0 @@[C[C[C[C[C[C[C[C[C[C+++ /dev/null[C[C[C[C[C[C[C[C[C[C--- a/etc_backup/alternatives/iptables-restore[C[C[C[C[C[C[C[C[C[C[24Pindex 9553657..0000000[C[C[C[C[C[C[C[C[C[Cdeleted file mode 120000[C[C[C[C[C[C[C[C[C[C[Ciff --git a/etc_backup/alternatives/iptables-restore b/etc_backup/alternatives/iptables-restore[C[C[C[C[C[C[C[C[C[C\ No newline at end of file[K[C[C[C[C[C[C[C[C[C[C[4P-/usr/sbin/iptables-nft[C[C[C[C[C[C[C[C[C[C[10P@@ -1 +0,0 @@[C[C[C[C[C[C[C[C[C[C+++ /dev/null[C[C[C[C[C[C[C[C[C[C--- a/etc_backup/alternatives/iptables[C[C[C[C[C[C[C[C[C[C[16Pindex c55fd50..0000000[C[C[C[C[C[C[C[C[C[Cdeleted file mode 120000[C[C[C[C[C[C[C[C[C[C[Ciff --git a/etc_backup/alternatives/iptables b/etc_backup/alternatives/iptables[C[C[C[C[C[C[C[C[C[C[53P\ No newline at end of file[C[C[C[C[C[C[C[C[C[C-/usr/sbin/ip6tables-nft-save[C[C[C[C[C[C[C[C[C[C[16P@@ -1 +0,0 @@[C[C[C[C[C[C[C[C[C[C+++ /dev/null[C[C[C[C[C[C[C[C[C[C--- a/etc_backup/alternatives/ip6tables-save[C[C[C[C[C[C[C[C[C[C[22Pindex 04525f0..0000000[C[C[C[C[C[C[C[C[C[Cdeleted file mode 120000[C[C[C[C[C[C[C[C[C[C[Ciff --git a/etc_backup/alternatives/ip6tables-save b/etc_backup/alternatives/ip6tables-save[C[C[C[C[C[C[C[C[C[C\ No newline at end of file[K[C[C[C[C[C[C[C[C[C[Ccd practice/module1/task2-/usr/sbin/ip6tables-nft-restore[C[C[C[C[C[C[C[C[C[Cls[Kgit pushls[Kgit mergediff main origin/main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Plog[C[C[C[C[C[C[C[C[C[C[C[C[10Pfetchcd ~/practice_clone/[C[C[C[C[C[C[C[C[C[C[12Pgit pushcommit -m "Test Change2"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kls[Kcd ~/practice[C[C[C[C[C[C[C[C[C[Cls[Kcd task2ls[Kcd ~/practice_clone/practice/module1/test2[C[C[C[C[C[C[C[C[C[Cls[Kcd practice/module1/task2[C[C[C[C[C[C[C[C[C[Cls[Kcd practice/module1/task1/[C[C[C[C[C[C[C[C[C[Cpwd[K[1Plsgit pulldiff main origin/main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Plog[C[C[C[C[C[C[C[C[C[C[C[C[10Pfetchcd ~/practice_clone/[C[C[C[C[C[C[C[C[C[Cecho "Test change" > module1/task3/TEST.md[C[C[C[C[C[C[C[C[C[C[3@cd [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/practice[K[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/StasGen88/practice.git[C[C[C[C[C[C[C[C[C[C[6Pmkdir ~/practice_clone && cd ~/practice_clone[C[C[C[C[C[C[C[C[C[Cgit push[Kcommit -m "new file"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K[1Padd .echo "# Task3" > module1/task3/README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2" > module1/task2/README.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1" > module1/task1/README.md[C[C[C[C[C[C[C[C[C[C[21Pmkdir module1/task32-p module1/task1[C[C[C[C[C[C[C[C[C[Cgit push -u -f origin main[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kremote add origin https://github.com/StasGen88/practice.git[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbranch -M main[Kcommit -m "First commit"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Padd README.mdinit[Kecho "#Short discription" >> README.md[C[C[C[C[C[C[C[C[C[C[5Pmkdir ~/practice && cd ~/practice[C[C[C[C[C[C[C[C[C[C[1Pgh repo create --public practice[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pauth statusetup-git --hostname github.com[C[C[C[C[C[C[C[C[C[C[21Papt install git gh[8Pupdategit config --global init.defaultBranch mainuser.email "stassuhanov333@gmail.com"[16Pname "StasGen88"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pdiff main origin/main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Plog[C[C[C[C[C[C[C[C[C[C[C[C[10Pfetchcd ~/practice_clone/[C[C[C[C[C[C[C[C[C[Cgit push origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Changes"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcd ~/practice[C[C[C[C[C[C[C[C[C[Cgit clone https://github.com/StasGen88/practice.git[C[C[C[C[C[C[C[C[C[C[6Pmkdir ~/practice_clone && cd ~/practice_clone[C[C[C[C[C[C[C[C[C[C[20Prm -rf practice_clone.git[C[C[C[C[C[C[C[C[C[Cls[Krm -rf practice_clone[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/[Kgit commit "practice 1"[4PChange"[9Pstatus[1Padd .[Kls[Kcd practicegit push -u origin mainll[Ksh -u origin main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pbranch -M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4POn branch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "New tasks"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kremote add origin https://github.com/StasGen88/practice[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kls[Kcd ~[2Plscd practice~[K[2Plsgit pull origin main[3@sh -u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New tasks"[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kremote add origin https://github.com/StasGen88/practice[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@add [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kcd ~/practice[C[C[C[C[C[C[C[C[C[C[5Pgit initadd remote add origin https://github.com/StasGen88/practice[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@add [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit[Kcd ~/practice[C[C[C[C[C[C[C[C[C[C[5Pgit initadd remote add origin https://github.com/StasGen88/practice[C[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.h[Kgit
+[?2004l[?2004hbash-5.2# go[Kit status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004hbash-5.2# git push -u origin main
+[?2004lTo https://github.com/StasGen88/practice.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'https://github.com/StasGen88/practice.git'
+[m[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004hbash-5.2# git push -u origin main[1@-[1@f[1@ 
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 254 bytes | 254.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/StasGen88/practice.git
+ + 7a9b3bc...0c6b697 main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+[?2004hbash-5.2# mkdir -p module1/task1
+[?2004l[?2004hbash-5.2# mkdir -p module1/task1[K2[C[1Pmodule1/task2[1Pmodule1/task2[1Pmodule1/task2
+[?2004l[?2004hbash-5.2# mkdir module1/task2[K3
+[?2004l[?2004hbash-5.2# echo "TSA[K[KASK 1" > module1/task1 [KREAD[K[K[K[K/README.md
+[?2004l[?2004hbash-5.2# echo "TASK 1" > module1/task1/README.md[1@2[1P[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/README.md2/README.md
+[?2004l[?2004hbash-5.2# echi[Ko "TASK #[K3" > moduel [K[K[Kle1/task3.[K/README.md
+[?2004l[?2004hbash-5.2# pwd
+[?2004l/root/practice
+[?2004hbash-5.2# git add .
+[?2004l[?2004hbash-5.2# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   module1/task1/README.md[m
+	[32mnew file:   module1/task2/README.md[m
+	[32mnew file:   module1/task3/README.md[m
+
+[?2004hbash-5.2# git commit ""[K[K- [Km ""n"e"w" "c"o"m"m"i"t"
+[?2004l[main e8b6342] new commit
+ 3 files changed, 3 insertions(+)
+ create mode 100644 module1/task1/README.md
+ create mode 100644 module1/task2/README.md
+ create mode 100644 module1/task3/README.md
+[?2004hbash-5.2# git push
+[?2004lEnumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  11% (1/9)Writing objects:  22% (2/9)Writing objects:  33% (3/9)Writing objects:  44% (4/9)Writing objects:  55% (5/9)Writing objects:  66% (6/9)Writing objects:  77% (7/9)Writing objects:  88% (8/9)Writing objects: 100% (9/9)Writing objects: 100% (9/9), 556 bytes | 556.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/StasGen88/practice.git
+   0c6b697..e8b6342  main -> main
+[?2004hbash-5.2# mkdir ~/practice [K_clone && cd ~.[K/practice[K_[Ke_C[Kclone
+[?2004l[?2004hbash-5.2# git clone https://github.con?[K/ST[KtasGen88/P[Kpractice.gitr[K
+[?2004lCloning into 'practice'...
+fatal: unable to access 'https://github.con/StasGen88/practice.git/': Could not resolve host: github.con
+[?2004hbash-5.2# git clone https://github.con/StasGen88/practice.git[C[1P/StasGen88/practice.gitm/StasGen88/practice.git
+[?2004lCloning into 'practice'...
+remote: Enumerating objects: 12, done.[K
+remote: Counting objects:   8% (1/12)[Kremote: Counting objects:  16% (2/12)[Kremote: Counting objects:  25% (3/12)[Kremote: Counting objects:  33% (4/12)[Kremote: Counting objects:  41% (5/12)[Kremote: Counting objects:  50% (6/12)[Kremote: Counting objects:  58% (7/12)[Kremote: Counting objects:  66% (8/12)[Kremote: Counting objects:  75% (9/12)[Kremote: Counting objects:  83% (10/12)[Kremote: Counting objects:  91% (11/12)[Kremote: Counting objects: 100% (12/12)[Kremote: Counting objects: 100% (12/12), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:   8% (1/12)Receiving objects:  16% (2/12)Receiving objects:  25% (3/12)Receiving objects:  33% (4/12)Receiving objects:  41% (5/12)Receiving objects:  50% (6/12)Receiving objects:  58% (7/12)Receiving objects:  66% (8/12)Receiving objects:  75% (9/12)Receiving objects:  83% (10/12)Receiving objects:  91% (11/12)Receiving objects: 100% (12/12)Receiving objects: 100% (12/12), done.
+[?2004hbash-5.2# cd ~/practice/module1/[K.[K/task2/
+[?2004l[?2004hbash-5.2# echo >[K"TWE[K[KEST2>[K" >mo[K[K modu[K[K[K[KTEST.md
+[?2004l[?2004hbash-5.2# ls
+[?2004lREADME.md  TEST.md
+[?2004hbash-5.2# /[Kcd ~/practice
+[?2004l[?2004hbash-5.2# git add .
+[?2004l[?2004hbash-5.2# got commit "[K-0[K [Km "TE[Kest"
+[?2004lbash: got: command not found
+[?2004hbash-5.2# got commit -m "Test"[C[1P[1@i
+[?2004l[main e2da95e] Test
+ 1 file changed, 1 insertion(+)
+ create mode 100644 module1/task2/TEST.md
+[?2004hbash-5.2# i[Kgit push
+[?2004lEnumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 452 bytes | 452.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/StasGen88/practice.git
+   e8b6342..e2da95e  main -> main
+[?2004hbash-5.2# cd ~/practice_clone/
+[?2004l[?2004hbash-5.2# git practice/[K[K[K[K[K[K[K[Kull origin main
+[?2004lremote: Enumerating objects: 17, done.[K
+remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 17 (delta 0), reused 17 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:   5% (1/17)Unpacking objects:  11% (2/17)Unpacking objects:  17% (3/17)Unpacking objects:  23% (4/17)Unpacking objects:  29% (5/17)Unpacking objects:  35% (6/17)Unpacking objects:  41% (7/17)Unpacking objects:  47% (8/17)Unpacking objects:  52% (9/17)Unpacking objects:  58% (10/17)Unpacking objects:  64% (11/17)Unpacking objects:  70% (12/17)Unpacking objects:  76% (13/17)Unpacking objects:  82% (14/17)Unpacking objects:  88% (15/17)Unpacking objects:  94% (16/17)Unpacking objects: 100% (17/17)Unpacking objects: 100% (17/17), 1.15 KiB | 1.15 MiB/s, done.
+From https://github.com/StasGen88/practice
+ * branch            main       -> FETCH_HEAD
+ + 7a9b3bc...e2da95e main       -> origin/main  (forced update)
+[33mhint: You have divergent branches and need to specify how to reconcile them.[m
+[33mhint: You can do so by running one of the following commands sometime before[m
+[33mhint: your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+fatal: Need to specify how to reconcile divergent branches.
+[?2004hbash-5.2# cd[Kd /proc/[K[K[K[K[K[K~/practice_clone/
+[?2004l[?2004hbash-5.2# ls
+[?2004lpractice
+[?2004hbash-5.2# lscd ~/practice_clone/[C[C[C[C[C[C[C[C[C[Cgit pull origin main
+[?2004lFrom https://github.com/StasGen88/practice
+ * branch            main       -> FETCH_HEAD
+[33mhint: You have divergent branches and need to specify how to reconcile them.[m
+[33mhint: You can do so by running one of the following commands sometime before[m
+[33mhint: your next pull:[m
+[33mhint: [m
+[33mhint:   git config pull.rebase false  # merge[m
+[33mhint:   git config pull.rebase true   # rebase[m
+[33mhint:   git config pull.ff only       # fast-forward only[m
+[33mhint: [m
+[33mhint: You can replace "git config" with "git config --global" to set a default[m
+[33mhint: preference for all repositories. You can also pass --rebase, --no-rebase,[m
+[33mhint: or --ff-only on the command line to override the configured default per[m
+[33mhint: invocation.[m
+fatal: Need to specify how to reconcile divergent branches.
+[?2004hbash-5.2# ls
+[?2004lpractice
+[?2004hbash-5.2# cd p1`[K[Kractice/module1/task2
+[?2004l[?2004hbash-5.2# ls
+[?2004lREADME.md
+[?2004hbash-5.2# cd ~p[K/practice_clone/practice/
+[?2004l[?2004hbash-5.2# git pull oi[Ktig[K[K[Krigin main
+[?2004lremote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)[Kremote: Counting objects:  25% (2/8)[Kremote: Counting objects:  37% (3/8)[Kremote: Counting objects:  50% (4/8)[Kremote: Counting objects:  62% (5/8)[Kremote: Counting objects:  75% (6/8)[Kremote: Counting objects:  87% (7/8)[Kremote: Counting objects: 100% (8/8)[Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)[Kremote: Compressing objects:  50% (2/4)[Kremote: Compressing objects:  75% (3/4)[Kremote: Compressing objects: 100% (4/4)[Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  20% (1/5)Unpacking objects:  40% (2/5)Unpacking objects:  60% (3/5)Unpacking objects:  80% (4/5)Unpacking objects: 100% (5/5)Unpacking objects: 100% (5/5), 432 bytes | 432.00 KiB/s, done.
+From https://github.com/StasGen88/practice
+ * branch            main       -> FETCH_HEAD
+   e8b6342..e2da95e  main       -> origin/main
+Updating e8b6342..e2da95e
+Fast-forward
+ module1/task2/TEST.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 module1/task2/TEST.md
+[?2004hbash-5.2# git pull origin main[C[C[C[C[C[C[C[C[C[Ccd ~/practice_clone/practice/module1/task2
+[?2004l[?2004hbash-5.2# ls
+[?2004lREADME.md  TEST.md
+[?2004hbash-5.2# esi[K[Kxit
+[?2004lexit
+
+Script done on 2025-10-20 11:22:45+00:00 [COMMAND_EXIT_CODE="0"]
