@@ -1,0 +1,1997 @@
+Script started on 2025-10-17 14:47:25+00:00 [COMMAND="bash --noprofile --norc" TERM="xterm" TTY="/dev/pts/5" COLUMNS="237" LINES="63"]
+[?2004hbash-5.2# cd r[K/root/etc_backup
+[?2004l[?2004hbash-5.2# ls
+[?2004ladduser.conf		console-setup	      default	    groff	     iproute2	    locale.alias    mime.types	    networkd-dispatcher  plymouth    rc5.d	    shadow	       supercat		 update-motd.d
+alternatives		credstore	      deluser.conf  group	     iscsi	    locale.conf     mke2fs.conf     networks		 pm	     rc6.d	    shadow-	       sysctl.conf	 update-notifier
+apparmor		credstore.encrypted   depmod.d	    group-	     issue	    locale.gen	    ModemManager    newt		 polkit-1    rcS.d	    shells	       sysctl.d		 UPower
+apparmor.d		cron.d		      dhcp	    grub.d	     issue.net	    localtime	    modprobe.d	    nftables.conf	 pollinate   resolv.conf    skel	       sysstat		 usb_modeswitch.conf
+apport			cron.daily	      dhcpcd.conf   gshadow	     kernel	    logcheck	    modules	    nsswitch.conf	 profile     rmt	    sos		       systemd		 usb_modeswitch.d
+apt			cron.hourly	      dpkg	    gshadow-	     landscape	    login.defs	    modules-load.d  opt			 profile.d   rpc	    ssh		       terminfo		 vconsole.conf
+bash.bashrc		cron.monthly	      e2scrub.conf  gss		     ldap	    logrotate.conf  motd	    os-release		 protocols   rsyslog.conf   ssl		       thermald		 vim
+bash_completion		crontab		      environment   hdparm.conf      ld.so.cache    logrotate.d     mtab	    overlayroot.conf	 python3     rsyslog.d	    subgid	       timezone		 vmware-tools
+bash_completion.d	cron.weekly	      ethertypes    host.conf	     ld.so.conf     lsb-release     multipath	    PackageKit		 python3.12  screenrc	    subgid-	       tmpfiles.d	 vtrgb
+bindresvport.blacklist	cron.yearly	      fonts	    hosts	     ld.so.conf.d   lvm		    multipath.conf  pam.conf		 qemu	     security	    subuid	       ubuntu-advantage  wgetrc
+binfmt.d		cryptsetup-initramfs  fstab	    hosts.allow      legal	    machine-id	    nanorc	    pam.d		 rc0.d	     selinux	    subuid-	       ucf.conf		 X11
+byobu			crypttab	      fuse.conf     hosts.deny	     libaudit.conf  magic	    needrestart     passwd		 rc1.d	     sensors3.conf  sudo.conf	       udev		 xattr.conf
+ca-certificates		dbus-1		      fwupd	    init.d	     libblockdev    magic.mime	    netconfig	    passwd-		 rc2.d	     sensors.d	    sudoers	       udisks2		 xdg
+ca-certificates.conf	debconf.conf	      gai.conf	    initramfs-tools  libibverbs.d   manpath.config  netplan	    perl		 rc3.d	     services	    sudoers.d	       ufw		 xml
+cloud			debian_version	      gnutls	    inputrc	     libnl-3	    mdadm	    network	    pki			 rc4.d	     sgml	    sudo_logsrvd.conf  update-manager	 zsh_command_not_found
+[?2004hbash-5.2# lscd /root/etc_backup[K[K[K[K[K[K[K[K[K[Kmotd_backup.tar.gz [K[K[K[K[K[K[K[K
+[?2004lbash: cd: /root/motd_backup: No such file or directory
+[?2004hbash-5.2# cd /root/motd_backup[K[K[K[K[K[K[K_backup.tar.gz [K
+[?2004lbash: cd: /root/motd_backup.tar.gz: Not a directory
+[?2004hbash-5.2# cd /root/motd_backup.tar.gz[K[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[C[C[C[C[C[C[C[C[C[Cexit[Kcat etc_backup.tar.bz2[C[C[C[C[C[C[C[C[C[Cls[K;scd /root/motd_backup.tar.gz [C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[1Petc/etc_backuproot/etc_backup[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/motd_backup.tar.gz [C[C[C[C[C[C[C[C[C[Cls[Kcd /root/motd_backup.tar.gz [K;s[Klscat etc_backup.tar.bz2[C[C[C[C[C[C[C[C[C[Cls[K;scd /root/motd_backup.tar.gz [K
+[?2004l[?2004hbash-5.2# ls
+[?2004letc_backup  etc_backup.tar.7z  etc_backup.tar.bz2  etc_backup.tar.gz  motd_backup.tar.gz  practice2__part1.log	practice@__part1.log
+[?2004hbash-5.2# tar -tjf etc_backup.tar..[Kbz2 
+[?2004letc_backup/
+etc_backup/rc4.d/
+etc_backup/rc4.d/S01uuidd
+etc_backup/rc4.d/S01grub-common
+etc_backup/rc4.d/S01rsync
+etc_backup/rc4.d/S01plymouth
+etc_backup/rc4.d/S01dbus
+etc_backup/rc4.d/S01sysstat
+etc_backup/rc4.d/S01console-setup.sh
+etc_backup/rc4.d/S01open-vm-tools
+etc_backup/rc4.d/S01ssh
+etc_backup/rc4.d/S01qemu-guest-agent
+etc_backup/rc4.d/S01cron
+etc_backup/rc4.d/S01unattended-upgrades
+etc_backup/rc4.d/S01apport
+etc_backup/inputrc
+etc_backup/credstore/
+etc_backup/issue.net
+etc_backup/gai.conf
+etc_backup/machine-id
+etc_backup/locale.alias
+etc_backup/logcheck/
+etc_backup/logcheck/violations.d/
+etc_backup/logcheck/violations.d/mdadm
+etc_backup/logcheck/ignore.d.server/
+etc_backup/logcheck/ignore.d.server/rsyslog
+etc_backup/logcheck/ignore.d.server/mdadm
+etc_backup/logcheck/ignore.d.server/gpg-agent
+etc_backup/issue
+etc_backup/ssl/
+etc_backup/ssl/certs/
+etc_backup/ssl/certs/1e08bfd1.0
+etc_backup/ssl/certs/b0e59380.0
+etc_backup/ssl/certs/8cb5ee0f.0
+etc_backup/ssl/certs/f3377b1b.0
+etc_backup/ssl/certs/XRamp_Global_CA_Root.pem
+etc_backup/ssl/certs/SSL.com_TLS_RSA_Root_CA_2022.pem
+etc_backup/ssl/certs/CommScope_Public_Trust_ECC_Root-01.pem
+etc_backup/ssl/certs/607986c7.0
+etc_backup/ssl/certs/Go_Daddy_Class_2_CA.pem
+etc_backup/ssl/certs/D-TRUST_Root_Class_3_CA_2_2009.pem
+etc_backup/ssl/certs/bf53fb88.0
+etc_backup/ssl/certs/emSign_ECC_Root_CA_-_G3.pem
+etc_backup/ssl/certs/ecccd8db.0
+etc_backup/ssl/certs/18856ac4.0
+etc_backup/ssl/certs/emSign_Root_CA_-_G1.pem
+etc_backup/ssl/certs/ISRG_Root_X2.pem
+etc_backup/ssl/certs/cd8c0d63.0
+etc_backup/ssl/certs/0b1b94ef.0
+etc_backup/ssl/certs/DigiCert_TLS_ECC_P384_Root_G5.pem
+etc_backup/ssl/certs/1e09d511.0
+etc_backup/ssl/certs/406c9bb1.0
+etc_backup/ssl/certs/7a780d93.0
+etc_backup/ssl/certs/Security_Communication_RootCA3.pem
+etc_backup/ssl/certs/CommScope_Public_Trust_RSA_Root-02.pem
+etc_backup/ssl/certs/Izenpe.com.pem
+etc_backup/ssl/certs/6d41d539.0
+etc_backup/ssl/certs/GlobalSign_Root_CA.pem
+etc_backup/ssl/certs/SecureTrust_CA.pem
+etc_backup/ssl/certs/9b46e03d.0
+etc_backup/ssl/certs/228f89db.0
+etc_backup/ssl/certs/DigiCert_Assured_ID_Root_G3.pem
+etc_backup/ssl/certs/HiPKI_Root_CA_-_G1.pem
+etc_backup/ssl/certs/USERTrust_RSA_Certification_Authority.pem
+etc_backup/ssl/certs/6b99d060.0
+etc_backup/ssl/certs/a94d09e5.0
+etc_backup/ssl/certs/SSL.com_EV_Root_Certification_Authority_ECC.pem
+etc_backup/ssl/certs/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+etc_backup/ssl/certs/Amazon_Root_CA_2.pem
+etc_backup/ssl/certs/244b5494.0
+etc_backup/ssl/certs/5e98733a.0
+etc_backup/ssl/certs/9c8dfbd4.0
+etc_backup/ssl/certs/5860aaa6.0
+etc_backup/ssl/certs/DigiCert_TLS_RSA4096_Root_G5.pem
+etc_backup/ssl/certs/93bc0acc.0
+etc_backup/ssl/certs/CommScope_Public_Trust_ECC_Root-02.pem
+etc_backup/ssl/certs/b66938e9.0
+etc_backup/ssl/certs/Entrust_Root_Certification_Authority.pem
+etc_backup/ssl/certs/0b9bc432.0
+etc_backup/ssl/certs/da0cfd1d.0
+etc_backup/ssl/certs/106f3e4d.0
+etc_backup/ssl/certs/Atos_TrustedRoot_Root_CA_ECC_TLS_2021.pem
+etc_backup/ssl/certs/TunTrust_Root_CA.pem
+etc_backup/ssl/certs/cbf06781.0
+etc_backup/ssl/certs/vTrus_Root_CA.pem
+etc_backup/ssl/certs/HARICA_TLS_ECC_Root_CA_2021.pem
+etc_backup/ssl/certs/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+etc_backup/ssl/certs/0f6fa695.0
+etc_backup/ssl/certs/TrustAsia_Global_Root_CA_G4.pem
+etc_backup/ssl/certs/AffirmTrust_Commercial.pem
+etc_backup/ssl/certs/TWCA_Global_Root_CA.pem
+etc_backup/ssl/certs/e868b802.0
+etc_backup/ssl/certs/e8de2f56.0
+etc_backup/ssl/certs/eed8c118.0
+etc_backup/ssl/certs/feffd413.0
+etc_backup/ssl/certs/Entrust_Root_Certification_Authority_-_G4.pem
+etc_backup/ssl/certs/COMODO_Certification_Authority.pem
+etc_backup/ssl/certs/aee5f10d.0
+etc_backup/ssl/certs/Starfield_Root_Certificate_Authority_-_G2.pem
+etc_backup/ssl/certs/Entrust_Root_Certification_Authority_-_G2.pem
+etc_backup/ssl/certs/cc450945.0
+etc_backup/ssl/certs/dd8e9d41.0
+etc_backup/ssl/certs/Actalis_Authentication_Root_CA.pem
+etc_backup/ssl/certs/GlobalSign_Root_CA_-_R6.pem
+etc_backup/ssl/certs/988a38cb.0
+etc_backup/ssl/certs/ISRG_Root_X1.pem
+etc_backup/ssl/certs/T-TeleSec_GlobalRoot_Class_2.pem
+etc_backup/ssl/certs/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+etc_backup/ssl/certs/ACCVRAIZ1.pem
+etc_backup/ssl/certs/Certigna.pem
+etc_backup/ssl/certs/064e0aa9.0
+etc_backup/ssl/certs/8160b96c.0
+etc_backup/ssl/certs/fd64f3fc.0
+etc_backup/ssl/certs/Sectigo_Public_Server_Authentication_Root_R46.pem
+etc_backup/ssl/certs/a3418fda.0
+etc_backup/ssl/certs/e-Szigno_Root_CA_2017.pem
+etc_backup/ssl/certs/DigiCert_Global_Root_CA.pem
+etc_backup/ssl/certs/HARICA_TLS_RSA_Root_CA_2021.pem
+etc_backup/ssl/certs/d4dae3dd.0
+etc_backup/ssl/certs/6fa5da56.0
+etc_backup/ssl/certs/ce5e74ef.0
+etc_backup/ssl/certs/9d04f354.0
+etc_backup/ssl/certs/40547a79.0
+etc_backup/ssl/certs/2ae6433e.0
+etc_backup/ssl/certs/f0c70a8d.0
+etc_backup/ssl/certs/9bf03295.0
+etc_backup/ssl/certs/c01eb047.0
+etc_backup/ssl/certs/BJCA_Global_Root_CA2.pem
+etc_backup/ssl/certs/749e9e03.0
+etc_backup/ssl/certs/cd58d51e.0
+etc_backup/ssl/certs/5cd81ad7.0
+etc_backup/ssl/certs/GDCA_TrustAUTH_R5_ROOT.pem
+etc_backup/ssl/certs/76faf6c0.0
+etc_backup/ssl/certs/9846683b.0
+etc_backup/ssl/certs/9046744a.0
+etc_backup/ssl/certs/certSIGN_ROOT_CA.pem
+etc_backup/ssl/certs/c28a8a30.0
+etc_backup/ssl/certs/8508e720.0
+etc_backup/ssl/certs/Hongkong_Post_Root_CA_3.pem
+etc_backup/ssl/certs/fe8a2cd8.0
+etc_backup/ssl/certs/Entrust.net_Premium_2048_Secure_Server_CA.pem
+etc_backup/ssl/certs/54657681.0
+etc_backup/ssl/certs/AffirmTrust_Premium.pem
+etc_backup/ssl/certs/Comodo_AAA_Services_root.pem
+etc_backup/ssl/certs/9b5697b0.0
+etc_backup/ssl/certs/de6d66f3.0
+etc_backup/ssl/certs/Atos_TrustedRoot_2011.pem
+etc_backup/ssl/certs/fc5a8f99.0
+etc_backup/ssl/certs/4f316efb.0
+etc_backup/ssl/certs/QuoVadis_Root_CA_2.pem
+etc_backup/ssl/certs/d6325660.0
+etc_backup/ssl/certs/773e07ad.0
+etc_backup/ssl/certs/f51bb24c.0
+etc_backup/ssl/certs/ed858448.0
+etc_backup/ssl/certs/Amazon_Root_CA_1.pem
+etc_backup/ssl/certs/90c5a3c8.0
+etc_backup/ssl/certs/8f103249.0
+etc_backup/ssl/certs/09789157.0
+etc_backup/ssl/certs/e35234b1.0
+etc_backup/ssl/certs/DigiCert_Assured_ID_Root_G2.pem
+etc_backup/ssl/certs/57bcb2da.0
+etc_backup/ssl/certs/QuoVadis_Root_CA_2_G3.pem
+etc_backup/ssl/certs/CFCA_EV_ROOT.pem
+etc_backup/ssl/certs/4042bcee.0
+etc_backup/ssl/certs/IdenTrust_Commercial_Root_CA_1.pem
+etc_backup/ssl/certs/Sectigo_Public_Server_Authentication_Root_E46.pem
+etc_backup/ssl/certs/1d3472b9.0
+etc_backup/ssl/certs/06dc52d5.0
+etc_backup/ssl/certs/certSIGN_Root_CA_G2.pem
+etc_backup/ssl/certs/GTS_Root_R4.pem
+etc_backup/ssl/certs/GlobalSign_ECC_Root_CA_-_R5.pem
+etc_backup/ssl/certs/TrustAsia_Global_Root_CA_G3.pem
+etc_backup/ssl/certs/0179095f.0
+etc_backup/ssl/certs/DigiCert_High_Assurance_EV_Root_CA.pem
+etc_backup/ssl/certs/b81b93f0.0
+etc_backup/ssl/certs/3513523f.0
+etc_backup/ssl/certs/UCA_Extended_Validation_Root.pem
+etc_backup/ssl/certs/8d89cda1.0
+etc_backup/ssl/certs/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+etc_backup/ssl/certs/Certigna_Root_CA.pem
+etc_backup/ssl/certs/vTrus_ECC_Root_CA.pem
+etc_backup/ssl/certs/Trustwave_Global_ECC_P256_Certification_Authority.pem
+etc_backup/ssl/certs/IdenTrust_Public_Sector_Root_CA_1.pem
+etc_backup/ssl/certs/DigiCert_Global_Root_G3.pem
+etc_backup/ssl/certs/9f727ac7.0
+etc_backup/ssl/certs/D-TRUST_EV_Root_CA_1_2020.pem
+etc_backup/ssl/certs/68dd7389.0
+etc_backup/ssl/certs/COMODO_ECC_Certification_Authority.pem
+etc_backup/ssl/certs/Starfield_Class_2_CA.pem
+etc_backup/ssl/certs/UCA_Global_G2_Root.pem
+etc_backup/ssl/certs/2923b3f9.0
+etc_backup/ssl/certs/5ad8a5d6.0
+etc_backup/ssl/certs/d7e8dc79.0
+etc_backup/ssl/certs/ANF_Secure_Server_Root_CA.pem
+etc_backup/ssl/certs/TeliaSonera_Root_CA_v1.pem
+etc_backup/ssl/certs/Certainly_Root_R1.pem
+etc_backup/ssl/certs/AffirmTrust_Premium_ECC.pem
+etc_backup/ssl/certs/7719f463.0
+etc_backup/ssl/certs/QuoVadis_Root_CA_3.pem
+etc_backup/ssl/certs/75d1b2ed.0
+etc_backup/ssl/certs/40193066.0
+etc_backup/ssl/certs/ff34af3f.0
+etc_backup/ssl/certs/GlobalSign_Root_R46.pem
+etc_backup/ssl/certs/8312c4c1.0
+etc_backup/ssl/certs/SSL.com_Root_Certification_Authority_RSA.pem
+etc_backup/ssl/certs/e73d606e.0
+etc_backup/ssl/certs/DigiCert_Trusted_Root_G4.pem
+etc_backup/ssl/certs/COMODO_RSA_Certification_Authority.pem
+etc_backup/ssl/certs/GTS_Root_R2.pem
+etc_backup/ssl/certs/a89d74c2.0
+etc_backup/ssl/certs/3bde41ac.0
+etc_backup/ssl/certs/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+etc_backup/ssl/certs/5443e9e3.0
+etc_backup/ssl/certs/002c0b4f.0
+etc_backup/ssl/certs/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+etc_backup/ssl/certs/e36a6752.0
+etc_backup/ssl/certs/SSL.com_TLS_ECC_Root_CA_2022.pem
+etc_backup/ssl/certs/dc4d6a89.0
+etc_backup/ssl/certs/Certum_Trusted_Root_CA.pem
+etc_backup/ssl/certs/9ef4a08a.0
+etc_backup/ssl/certs/9482e63a.0
+etc_backup/ssl/certs/SwissSign_Gold_CA_-_G2.pem
+etc_backup/ssl/certs/f387163d.0
+etc_backup/ssl/certs/48bec511.0
+etc_backup/ssl/certs/02265526.0
+etc_backup/ssl/certs/DigiCert_Assured_ID_Root_CA.pem
+etc_backup/ssl/certs/GTS_Root_R3.pem
+etc_backup/ssl/certs/1001acf7.0
+etc_backup/ssl/certs/4b718d9b.0
+etc_backup/ssl/certs/81f2d2b1.0
+etc_backup/ssl/certs/CA_Disig_Root_R2.pem
+etc_backup/ssl/certs/Security_Communication_RootCA2.pem
+etc_backup/ssl/certs/f30dd6ad.0
+etc_backup/ssl/certs/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+etc_backup/ssl/certs/b1159c4c.0
+etc_backup/ssl/certs/d52c538d.0
+etc_backup/ssl/certs/GTS_Root_R1.pem
+etc_backup/ssl/certs/4fd49c6c.0
+etc_backup/ssl/certs/ee64a828.0
+etc_backup/ssl/certs/fb717492.0
+etc_backup/ssl/certs/ca6e4ad9.0
+etc_backup/ssl/certs/b433981b.0
+etc_backup/ssl/certs/3e359ba6.0
+etc_backup/ssl/certs/TWCA_Root_Certification_Authority.pem
+etc_backup/ssl/certs/SZAFIR_ROOT_CA2.pem
+etc_backup/ssl/certs/7f3d5d1d.0
+etc_backup/ssl/certs/OISTE_WISeKey_Global_Root_GB_CA.pem
+etc_backup/ssl/certs/Security_Communication_Root_CA.pem
+etc_backup/ssl/certs/GlobalSign_ECC_Root_CA_-_R4.pem
+etc_backup/ssl/certs/f249de83.0
+etc_backup/ssl/certs/GlobalSign_Root_E46.pem
+etc_backup/ssl/certs/GlobalSign_Root_CA_-_R3.pem
+etc_backup/ssl/certs/2b349938.0
+etc_backup/ssl/certs/Entrust_Root_Certification_Authority_-_EC1.pem
+etc_backup/ssl/certs/b7a5b843.0
+etc_backup/ssl/certs/706f604c.0
+etc_backup/ssl/certs/AC_RAIZ_FNMT-RCM.pem
+etc_backup/ssl/certs/Telia_Root_CA_v2.pem
+etc_backup/ssl/certs/1cef98f5.0
+etc_backup/ssl/certs/5f618aec.0
+etc_backup/ssl/certs/653b494a.0
+etc_backup/ssl/certs/DigiCert_Global_Root_G2.pem
+etc_backup/ssl/certs/3fb36b73.0
+etc_backup/ssl/certs/930ac5d2.0
+etc_backup/ssl/certs/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+etc_backup/ssl/certs/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+etc_backup/ssl/certs/Certum_Trusted_Network_CA_2.pem
+etc_backup/ssl/certs/f081611a.0
+etc_backup/ssl/certs/5f15c80c.0
+etc_backup/ssl/certs/b727005e.0
+etc_backup/ssl/certs/8d86cdd1.0
+etc_backup/ssl/certs/QuoVadis_Root_CA_1_G3.pem
+etc_backup/ssl/certs/Buypass_Class_2_Root_CA.pem
+etc_backup/ssl/certs/0f5dc4f3.0
+etc_backup/ssl/certs/08063a00.0
+etc_backup/ssl/certs/Baltimore_CyberTrust_Root.pem
+etc_backup/ssl/certs/ef954a4e.0
+etc_backup/ssl/certs/Trustwave_Global_ECC_P384_Certification_Authority.pem
+etc_backup/ssl/certs/f39fc864.0
+etc_backup/ssl/certs/CommScope_Public_Trust_RSA_Root-01.pem
+etc_backup/ssl/certs/OISTE_WISeKey_Global_Root_GC_CA.pem
+etc_backup/ssl/certs/4bfab552.0
+etc_backup/ssl/certs/emSign_Root_CA_-_C1.pem
+etc_backup/ssl/certs/Microsec_e-Szigno_Root_CA_2009.pem
+etc_backup/ssl/certs/SwissSign_Silver_CA_-_G2.pem
+etc_backup/ssl/certs/AffirmTrust_Networking.pem
+etc_backup/ssl/certs/e113c810.0
+etc_backup/ssl/certs/Amazon_Root_CA_4.pem
+etc_backup/ssl/certs/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+etc_backup/ssl/certs/ca-certificates.crt
+etc_backup/ssl/certs/Certum_Trusted_Network_CA.pem
+etc_backup/ssl/certs/D-TRUST_BR_Root_CA_1_2020.pem
+etc_backup/ssl/certs/Amazon_Root_CA_3.pem
+etc_backup/ssl/certs/fa5da96b.0
+etc_backup/ssl/certs/0bf05006.0
+etc_backup/ssl/certs/e18bfb83.0
+etc_backup/ssl/certs/Security_Communication_ECC_RootCA1.pem
+etc_backup/ssl/certs/14bc7599.0
+etc_backup/ssl/certs/Secure_Global_CA.pem
+etc_backup/ssl/certs/Buypass_Class_3_Root_CA.pem
+etc_backup/ssl/certs/SecureSign_RootCA11.pem
+etc_backup/ssl/certs/SSL.com_Root_Certification_Authority_ECC.pem
+etc_backup/ssl/certs/QuoVadis_Root_CA_3_G3.pem
+etc_backup/ssl/certs/d887a5bb.0
+etc_backup/ssl/certs/5931b5bc.0
+etc_backup/ssl/certs/7a3adc42.0
+etc_backup/ssl/certs/865fbdf9.0
+etc_backup/ssl/certs/GLOBALTRUST_2020.pem
+etc_backup/ssl/certs/0a775a30.0
+etc_backup/ssl/certs/emSign_ECC_Root_CA_-_C3.pem
+etc_backup/ssl/certs/BJCA_Global_Root_CA1.pem
+etc_backup/ssl/certs/Certum_EC-384_CA.pem
+etc_backup/ssl/certs/Trustwave_Global_Certification_Authority.pem
+etc_backup/ssl/certs/ePKI_Root_Certification_Authority.pem
+etc_backup/ssl/certs/626dceaf.0
+etc_backup/ssl/certs/NAVER_Global_Root_Certification_Authority.pem
+etc_backup/ssl/certs/32888f65.0
+etc_backup/ssl/certs/Atos_TrustedRoot_Root_CA_RSA_TLS_2021.pem
+etc_backup/ssl/certs/062cdee6.0
+etc_backup/ssl/certs/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+etc_backup/ssl/certs/Certainly_Root_E1.pem
+etc_backup/ssl/certs/T-TeleSec_GlobalRoot_Class_3.pem
+etc_backup/ssl/certs/USERTrust_ECC_Certification_Authority.pem
+etc_backup/ssl/certs/NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+etc_backup/ssl/openssl.cnf
+etc_backup/ssl/private/
+etc_backup/apparmor.d/
+etc_backup/apparmor.d/sbuild-createchroot
+etc_backup/apparmor.d/plasmashell
+etc_backup/apparmor.d/brave
+etc_backup/apparmor.d/ch-run
+etc_backup/apparmor.d/Discord
+etc_backup/apparmor.d/rootlesskit
+etc_backup/apparmor.d/vdens
+etc_backup/apparmor.d/lc-compliance
+etc_backup/apparmor.d/systemd-coredump
+etc_backup/apparmor.d/qmapshack
+etc_backup/apparmor.d/flatpak
+etc_backup/apparmor.d/force-complain/
+etc_backup/apparmor.d/slirp4netns
+etc_backup/apparmor.d/QtWebEngineProcess
+etc_backup/apparmor.d/lsb_release
+etc_backup/apparmor.d/balena-etcher
+etc_backup/apparmor.d/tunables/
+etc_backup/apparmor.d/tunables/xdg-user-dirs.d/
+etc_backup/apparmor.d/tunables/xdg-user-dirs.d/site.local
+etc_backup/apparmor.d/tunables/etc
+etc_backup/apparmor.d/tunables/multiarch.d/
+etc_backup/apparmor.d/tunables/multiarch.d/site.local
+etc_backup/apparmor.d/tunables/kernelvars
+etc_backup/apparmor.d/tunables/dovecot
+etc_backup/apparmor.d/tunables/multiarch
+etc_backup/apparmor.d/tunables/share
+etc_backup/apparmor.d/tunables/sys
+etc_backup/apparmor.d/tunables/apparmorfs
+etc_backup/apparmor.d/tunables/run
+etc_backup/apparmor.d/tunables/xdg-user-dirs
+etc_backup/apparmor.d/tunables/home.d/
+etc_backup/apparmor.d/tunables/home.d/ubuntu
+etc_backup/apparmor.d/tunables/home.d/site.local
+etc_backup/apparmor.d/tunables/alias
+etc_backup/apparmor.d/tunables/proc
+etc_backup/apparmor.d/tunables/home
+etc_backup/apparmor.d/tunables/global
+etc_backup/apparmor.d/tunables/securityfs
+etc_backup/apparmor.d/trinity
+etc_backup/apparmor.d/uwsgi-core
+etc_backup/apparmor.d/qcam
+etc_backup/apparmor.d/thunderbird
+etc_backup/apparmor.d/sbuild-abort
+etc_backup/apparmor.d/buildah
+etc_backup/apparmor.d/libcamerify
+etc_backup/apparmor.d/rsyslog.d/
+etc_backup/apparmor.d/rsyslog.d/README
+etc_backup/apparmor.d/nvidia_modprobe
+etc_backup/apparmor.d/runc
+etc_backup/apparmor.d/transmission
+etc_backup/apparmor.d/busybox
+etc_backup/apparmor.d/ubuntu_pro_esm_cache
+etc_backup/apparmor.d/sbuild
+etc_backup/apparmor.d/opam
+etc_backup/apparmor.d/ipa_verify
+etc_backup/apparmor.d/signal-desktop
+etc_backup/apparmor.d/chrome
+etc_backup/apparmor.d/abstractions/
+etc_backup/apparmor.d/abstractions/php
+etc_backup/apparmor.d/abstractions/dbus-accessibility
+etc_backup/apparmor.d/abstractions/nameservice
+etc_backup/apparmor.d/abstractions/audio
+etc_backup/apparmor.d/abstractions/web-data
+etc_backup/apparmor.d/abstractions/user-tmp
+etc_backup/apparmor.d/abstractions/ubuntu-feed-readers
+etc_backup/apparmor.d/abstractions/kerberosclient
+etc_backup/apparmor.d/abstractions/apparmor_api/
+etc_backup/apparmor.d/abstractions/apparmor_api/examine
+etc_backup/apparmor.d/abstractions/apparmor_api/is_enabled
+etc_backup/apparmor.d/abstractions/apparmor_api/find_mountpoint
+etc_backup/apparmor.d/abstractions/apparmor_api/change_profile
+etc_backup/apparmor.d/abstractions/apparmor_api/introspect
+etc_backup/apparmor.d/abstractions/private-files
+etc_backup/apparmor.d/abstractions/hosts_access
+etc_backup/apparmor.d/abstractions/kde-language-write
+etc_backup/apparmor.d/abstractions/ubuntu-gnome-terminal
+etc_backup/apparmor.d/abstractions/opencl-nvidia
+etc_backup/apparmor.d/abstractions/gvfs-open
+etc_backup/apparmor.d/abstractions/dbus-strict
+etc_backup/apparmor.d/abstractions/ubuntu-console-email
+etc_backup/apparmor.d/abstractions/postfix-common
+etc_backup/apparmor.d/abstractions/opencl-pocl
+etc_backup/apparmor.d/abstractions/ubuntu-browsers
+etc_backup/apparmor.d/abstractions/private-files-strict
+etc_backup/apparmor.d/abstractions/ubuntu-unity7-messaging
+etc_backup/apparmor.d/abstractions/xdg-desktop
+etc_backup/apparmor.d/abstractions/gtk
+etc_backup/apparmor.d/abstractions/mesa
+etc_backup/apparmor.d/abstractions/orbit2
+etc_backup/apparmor.d/abstractions/opencl
+etc_backup/apparmor.d/abstractions/wutmp
+etc_backup/apparmor.d/abstractions/user-mail
+etc_backup/apparmor.d/abstractions/dbus
+etc_backup/apparmor.d/abstractions/gnupg
+etc_backup/apparmor.d/abstractions/p11-kit
+etc_backup/apparmor.d/abstractions/apache2-common
+etc_backup/apparmor.d/abstractions/authentication
+etc_backup/apparmor.d/abstractions/kde-globals-write
+etc_backup/apparmor.d/abstractions/snap_browsers
+etc_backup/apparmor.d/abstractions/ubuntu-unity7-launcher
+etc_backup/apparmor.d/abstractions/cups-client
+etc_backup/apparmor.d/abstractions/gnome
+etc_backup/apparmor.d/abstractions/perl
+etc_backup/apparmor.d/abstractions/dbus-network-manager-strict
+etc_backup/apparmor.d/abstractions/trash
+etc_backup/apparmor.d/abstractions/aspell
+etc_backup/apparmor.d/abstractions/dconf
+etc_backup/apparmor.d/abstractions/svn-repositories
+etc_backup/apparmor.d/abstractions/exo-open
+etc_backup/apparmor.d/abstractions/xad
+etc_backup/apparmor.d/abstractions/ubuntu-email
+etc_backup/apparmor.d/abstractions/winbind
+etc_backup/apparmor.d/abstractions/ubuntu-konsole
+etc_backup/apparmor.d/abstractions/dri-common
+etc_backup/apparmor.d/abstractions/recent-documents-write
+etc_backup/apparmor.d/abstractions/video
+etc_backup/apparmor.d/abstractions/nss-systemd
+etc_backup/apparmor.d/abstractions/fcitx-strict
+etc_backup/apparmor.d/abstractions/php5
+etc_backup/apparmor.d/abstractions/nvidia
+etc_backup/apparmor.d/abstractions/ibus
+etc_backup/apparmor.d/abstractions/ubuntu-helpers
+etc_backup/apparmor.d/abstractions/samba-rpcd
+etc_backup/apparmor.d/abstractions/dovecot-common
+etc_backup/apparmor.d/abstractions/user-write
+etc_backup/apparmor.d/abstractions/nis
+etc_backup/apparmor.d/abstractions/qt5
+etc_backup/apparmor.d/abstractions/base
+etc_backup/apparmor.d/abstractions/dri-enumerate
+etc_backup/apparmor.d/abstractions/dbus-session
+etc_backup/apparmor.d/abstractions/xdg-open
+etc_backup/apparmor.d/abstractions/ssl_keys
+etc_backup/apparmor.d/abstractions/ubuntu-console-browsers
+etc_backup/apparmor.d/abstractions/ldapclient
+etc_backup/apparmor.d/abstractions/python
+etc_backup/apparmor.d/abstractions/wayland
+etc_backup/apparmor.d/abstractions/mozc
+etc_backup/apparmor.d/abstractions/opencl-intel
+etc_backup/apparmor.d/abstractions/ubuntu-unity7-base
+etc_backup/apparmor.d/abstractions/mir
+etc_backup/apparmor.d/abstractions/freedesktop.org
+etc_backup/apparmor.d/abstractions/ssl_certs
+etc_backup/apparmor.d/abstractions/openssl
+etc_backup/apparmor.d/abstractions/opencl-mesa
+etc_backup/apparmor.d/abstractions/php-worker
+etc_backup/apparmor.d/abstractions/X
+etc_backup/apparmor.d/abstractions/groff
+etc_backup/apparmor.d/abstractions/ubuntu-bittorrent-clients
+etc_backup/apparmor.d/abstractions/ubuntu-media-players
+etc_backup/apparmor.d/abstractions/user-manpages
+etc_backup/apparmor.d/abstractions/fcitx
+etc_backup/apparmor.d/abstractions/mysql
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/chromium-browser
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/multimedia
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/java
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/ubuntu-integration-xul
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/user-files
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/text-editors
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/plugins-common
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/productivity
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/mailto
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/kde
+etc_backup/apparmor.d/abstractions/ubuntu-browsers.d/ubuntu-integration
+etc_backup/apparmor.d/abstractions/dbus-accessibility-strict
+etc_backup/apparmor.d/abstractions/likewise
+etc_backup/apparmor.d/abstractions/gio-open
+etc_backup/apparmor.d/abstractions/kde-icon-cache-write
+etc_backup/apparmor.d/abstractions/mdns
+etc_backup/apparmor.d/abstractions/smbpass
+etc_backup/apparmor.d/abstractions/consoles
+etc_backup/apparmor.d/abstractions/crypto
+etc_backup/apparmor.d/abstractions/enchant
+etc_backup/apparmor.d/abstractions/qt5-compose-cache-write
+etc_backup/apparmor.d/abstractions/libpam-systemd
+etc_backup/apparmor.d/abstractions/bash
+etc_backup/apparmor.d/abstractions/opencl-common
+etc_backup/apparmor.d/abstractions/transmission-common
+etc_backup/apparmor.d/abstractions/qt5-settings-write
+etc_backup/apparmor.d/abstractions/kde
+etc_backup/apparmor.d/abstractions/kde-open5
+etc_backup/apparmor.d/abstractions/ubuntu-xterm
+etc_backup/apparmor.d/abstractions/fonts
+etc_backup/apparmor.d/abstractions/ruby
+etc_backup/apparmor.d/abstractions/dbus-session-strict
+etc_backup/apparmor.d/abstractions/vulkan
+etc_backup/apparmor.d/abstractions/user-download
+etc_backup/apparmor.d/abstractions/samba
+etc_backup/apparmor.d/usr.sbin.rsyslogd
+etc_backup/apparmor.d/foliate
+etc_backup/apparmor.d/usr.bin.man
+etc_backup/apparmor.d/qutebrowser
+etc_backup/apparmor.d/MongoDB_Compass
+etc_backup/apparmor.d/disable/
+etc_backup/apparmor.d/lxc-unshare
+etc_backup/apparmor.d/loupe
+etc_backup/apparmor.d/devhelp
+etc_backup/apparmor.d/abi/
+etc_backup/apparmor.d/abi/kernel-5.4-outoftree-network
+etc_backup/apparmor.d/abi/3.0
+etc_backup/apparmor.d/abi/4.0
+etc_backup/apparmor.d/abi/kernel-5.4-vanilla
+etc_backup/apparmor.d/evolution
+etc_backup/apparmor.d/sbuild-clean
+etc_backup/apparmor.d/slack
+etc_backup/apparmor.d/geary
+etc_backup/apparmor.d/keybase
+etc_backup/apparmor.d/sbuild-unhold
+etc_backup/apparmor.d/stress-ng
+etc_backup/apparmor.d/unix-chkpwd
+etc_backup/apparmor.d/sbuild-distupgrade
+etc_backup/apparmor.d/usr.bin.tcpdump
+etc_backup/apparmor.d/lxc-attach
+etc_backup/apparmor.d/code
+etc_backup/apparmor.d/vpnns
+etc_backup/apparmor.d/opera
+etc_backup/apparmor.d/lxc-execute
+etc_backup/apparmor.d/usr.lib.snapd.snap-confine.real
+etc_backup/apparmor.d/sbuild-hold
+etc_backup/apparmor.d/obsidian
+etc_backup/apparmor.d/virtiofsd
+etc_backup/apparmor.d/unprivileged_userns
+etc_backup/apparmor.d/local/
+etc_backup/apparmor.d/local/lsb_release
+etc_backup/apparmor.d/local/nvidia_modprobe
+etc_backup/apparmor.d/local/ubuntu_pro_esm_cache
+etc_backup/apparmor.d/local/usr.sbin.rsyslogd
+etc_backup/apparmor.d/local/usr.bin.man
+etc_backup/apparmor.d/local/usr.bin.tcpdump
+etc_backup/apparmor.d/local/usr.lib.snapd.snap-confine.real
+etc_backup/apparmor.d/local/ubuntu_pro_apt_news
+etc_backup/apparmor.d/local/README
+etc_backup/apparmor.d/sbuild-upgrade
+etc_backup/apparmor.d/goldendict
+etc_backup/apparmor.d/crun
+etc_backup/apparmor.d/steam
+etc_backup/apparmor.d/ubuntu_pro_apt_news
+etc_backup/apparmor.d/element-desktop
+etc_backup/apparmor.d/lxc-destroy
+etc_backup/apparmor.d/lxc-create
+etc_backup/apparmor.d/sbuild-shell
+etc_backup/apparmor.d/tuxedo-control-center
+etc_backup/apparmor.d/rpm
+etc_backup/apparmor.d/ch-checkns
+etc_backup/apparmor.d/vivaldi-bin
+etc_backup/apparmor.d/wike
+etc_backup/apparmor.d/firefox
+etc_backup/apparmor.d/msedge
+etc_backup/apparmor.d/podman
+etc_backup/apparmor.d/wpcom
+etc_backup/apparmor.d/sbuild-adduser
+etc_backup/apparmor.d/privacybrowser
+etc_backup/apparmor.d/lxc-usernsexec
+etc_backup/apparmor.d/nautilus
+etc_backup/apparmor.d/epiphany
+etc_backup/apparmor.d/sbuild-checkpackages
+etc_backup/apparmor.d/mmdebstrap
+etc_backup/apparmor.d/github-desktop
+etc_backup/apparmor.d/scide
+etc_backup/apparmor.d/lxc-stop
+etc_backup/apparmor.d/polypane
+etc_backup/apparmor.d/toybox
+etc_backup/apparmor.d/surfshark
+etc_backup/apparmor.d/sbuild-update
+etc_backup/apparmor.d/pageedit
+etc_backup/apparmor.d/cam
+etc_backup/apparmor.d/1password
+etc_backup/apparmor.d/userbindmount
+etc_backup/apparmor.d/tup
+etc_backup/apparmor.d/notepadqq
+etc_backup/apparmor.d/rssguard
+etc_backup/apparmor.d/sbuild-apt
+etc_backup/apparmor.d/kchmviewer
+etc_backup/apparmor.d/linux-sandbox
+etc_backup/apparmor.d/sbuild-destroychroot
+etc_backup/thermald/
+etc_backup/thermald/thermal-cpu-cdev-order.xml
+etc_backup/shells
+etc_backup/sos/
+etc_backup/sos/extras.d/
+etc_backup/sos/cleaner/
+etc_backup/sos/groups.d/
+etc_backup/sos/presets.d/
+etc_backup/sos/sos.conf
+etc_backup/X11/
+etc_backup/X11/xkb/
+etc_backup/X11/Xsession.d/
+etc_backup/X11/Xsession.d/20dbus_xdg-runtime
+etc_backup/X11/Xsession.d/90gpg-agent
+etc_backup/bindresvport.blacklist
+etc_backup/profile
+etc_backup/fwupd/
+etc_backup/fwupd/fwupd.conf
+etc_backup/fwupd/remotes.d/
+etc_backup/fwupd/remotes.d/lvfs.conf
+etc_backup/fwupd/remotes.d/vendor-directory.conf
+etc_backup/fwupd/remotes.d/lvfs-testing.conf
+etc_backup/fwupd/bios-settings.d/
+etc_backup/fwupd/bios-settings.d/README.md
+etc_backup/gshadow-
+etc_backup/ca-certificates.conf
+etc_backup/alternatives/
+etc_backup/alternatives/awk
+etc_backup/alternatives/pybabel
+etc_backup/alternatives/vi.fr.1.gz
+etc_backup/alternatives/lzcat
+etc_backup/alternatives/ftp.1.gz
+etc_backup/alternatives/editor.1.gz
+etc_backup/alternatives/vi.it.1.gz
+etc_backup/alternatives/vi.da.1.gz
+etc_backup/alternatives/mt
+etc_backup/alternatives/jsondiff
+etc_backup/alternatives/nc.1.gz
+etc_backup/alternatives/view.da.1.gz
+etc_backup/alternatives/which.es1.gz
+etc_backup/alternatives/view.ru.1.gz
+etc_backup/alternatives/lzless
+etc_backup/alternatives/telnet.1.gz
+etc_backup/alternatives/ex.it.1.gz
+etc_backup/alternatives/nc
+etc_backup/alternatives/pico.1.gz
+etc_backup/alternatives/sar.1.gz
+etc_backup/alternatives/which.ja1.gz
+etc_backup/alternatives/vi.ru.1.gz
+etc_backup/alternatives/lzma.1.gz
+etc_backup/alternatives/lzcat.1.gz
+etc_backup/alternatives/rmt
+etc_backup/alternatives/lzcmp.1.gz
+etc_backup/alternatives/vtrgb
+etc_backup/alternatives/pager
+etc_backup/alternatives/view.ja.1.gz
+etc_backup/alternatives/ip6tables-restore
+etc_backup/alternatives/rview
+etc_backup/alternatives/vimdiff
+etc_backup/alternatives/lzgrep.1.gz
+etc_backup/alternatives/lzdiff
+etc_backup/alternatives/lzegrep
+etc_backup/alternatives/vi.de.1.gz
+etc_backup/alternatives/netcat
+etc_backup/alternatives/iptables-restore
+etc_backup/alternatives/which.pl1.gz
+etc_backup/alternatives/arptables-restore
+etc_backup/alternatives/ex.ja.1.gz
+etc_backup/alternatives/iptables
+etc_backup/alternatives/lzmore
+etc_backup/alternatives/vi.ja.1.gz
+etc_backup/alternatives/ex.de.1.gz
+etc_backup/alternatives/which.de1.gz
+etc_backup/alternatives/arptables-save
+etc_backup/alternatives/unlzma
+etc_backup/alternatives/arptables
+etc_backup/alternatives/view.pl.1.gz
+etc_backup/alternatives/nawk
+etc_backup/alternatives/view.it.1.gz
+etc_backup/alternatives/lzfgrep.1.gz
+etc_backup/alternatives/view.fr.1.gz
+etc_backup/alternatives/awk.1.gz
+etc_backup/alternatives/ex.ru.1.gz
+etc_backup/alternatives/which.fr1.gz
+etc_backup/alternatives/ebtables-restore
+etc_backup/alternatives/rvim
+etc_backup/alternatives/sar
+etc_backup/alternatives/pager.1.gz
+etc_backup/alternatives/pinentry
+etc_backup/alternatives/pico
+etc_backup/alternatives/editor
+etc_backup/alternatives/vi.tr.1.gz
+etc_backup/alternatives/which.1.gz
+etc_backup/alternatives/ip6tables
+etc_backup/alternatives/which.it1.gz
+etc_backup/alternatives/view.de.1.gz
+etc_backup/alternatives/lzdiff.1.gz
+etc_backup/alternatives/vi.pl.1.gz
+etc_backup/alternatives/infobrowser.1.gz
+etc_backup/alternatives/unlzma.1.gz
+etc_backup/alternatives/ftp
+etc_backup/alternatives/lzless.1.gz
+etc_backup/alternatives/ip6tables-save
+etc_backup/alternatives/view.1.gz
+etc_backup/alternatives/ex.1.gz
+etc_backup/alternatives/telnet
+etc_backup/alternatives/which
+etc_backup/alternatives/lzfgrep
+etc_backup/alternatives/ebtables-save
+etc_backup/alternatives/lzma
+etc_backup/alternatives/view.tr.1.gz
+etc_backup/alternatives/view
+etc_backup/alternatives/builtins.7.gz
+etc_backup/alternatives/mt.1.gz
+etc_backup/alternatives/infobrowser
+etc_backup/alternatives/ex.pl.1.gz
+etc_backup/alternatives/README
+etc_backup/alternatives/lzgrep
+etc_backup/alternatives/vim
+etc_backup/alternatives/nawk.1.gz
+etc_backup/alternatives/text.plymouth
+etc_backup/alternatives/ex.da.1.gz
+etc_backup/alternatives/ex.fr.1.gz
+etc_backup/alternatives/newt-palette
+etc_backup/alternatives/lzcmp
+etc_backup/alternatives/pinentry.1.gz
+etc_backup/alternatives/ebtables
+etc_backup/alternatives/iptables-save
+etc_backup/alternatives/rmt.8.gz
+etc_backup/alternatives/ex
+etc_backup/alternatives/ex.tr.1.gz
+etc_backup/alternatives/netcat.1.gz
+etc_backup/alternatives/vi.1.gz
+etc_backup/alternatives/which.sl1.gz
+etc_backup/alternatives/vi
+etc_backup/alternatives/lzegrep.1.gz
+etc_backup/alternatives/lzmore.1.gz
+etc_backup/legal
+etc_backup/needrestart/
+etc_backup/needrestart/conf.d/
+etc_backup/needrestart/conf.d/README.needrestart
+etc_backup/needrestart/notify.conf
+etc_backup/needrestart/hook.d/
+etc_backup/needrestart/hook.d/10-dpkg
+etc_backup/needrestart/hook.d/90-none
+etc_backup/needrestart/hook.d/20-rpm
+etc_backup/needrestart/notify.d/
+etc_backup/needrestart/notify.d/README.needrestart
+etc_backup/needrestart/notify.d/200-write
+etc_backup/needrestart/notify.d/400-notify-send
+etc_backup/needrestart/notify.d/600-mail
+etc_backup/needrestart/iucode.sh
+etc_backup/needrestart/restart.d/
+etc_backup/needrestart/restart.d/README.needrestart
+etc_backup/needrestart/restart.d/systemd-manager
+etc_backup/needrestart/restart.d/dbus.service
+etc_backup/needrestart/restart.d/sysv-init
+etc_backup/needrestart/needrestart.conf
+etc_backup/.pwd.lock
+etc_backup/rmt
+etc_backup/dbus-1/
+etc_backup/dbus-1/system.d/
+etc_backup/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf
+etc_backup/dbus-1/session.d/
+etc_backup/cron.yearly/
+etc_backup/cron.yearly/.placeholder
+etc_backup/systemd/
+etc_backup/systemd/sleep.conf
+etc_backup/systemd/journald.conf
+etc_backup/systemd/pstore.conf
+etc_backup/systemd/user/
+etc_backup/systemd/user/sockets.target.wants/
+etc_backup/systemd/user/sockets.target.wants/gpg-agent.socket
+etc_backup/systemd/user/sockets.target.wants/gpg-agent-extra.socket
+etc_backup/systemd/user/sockets.target.wants/gpg-agent-browser.socket
+etc_backup/systemd/user/sockets.target.wants/gpg-agent-ssh.socket
+etc_backup/systemd/user/sockets.target.wants/pk-debconf-helper.socket
+etc_backup/systemd/user/sockets.target.wants/keyboxd.socket
+etc_backup/systemd/user/sockets.target.wants/dirmngr.socket
+etc_backup/systemd/user/timers.target.wants/
+etc_backup/systemd/user/timers.target.wants/launchpadlib-cache-clean.timer
+etc_backup/systemd/networkd.conf
+etc_backup/systemd/logind.conf
+etc_backup/systemd/system-generators/
+etc_backup/systemd/system-generators/systemd-gpt-auto-generator
+etc_backup/systemd/system.conf
+etc_backup/systemd/system/
+etc_backup/systemd/system/multi-user.target.wants/
+etc_backup/systemd/system/multi-user.target.wants/apport.service
+etc_backup/systemd/system/multi-user.target.wants/ubuntu-advantage.service
+etc_backup/systemd/system/multi-user.target.wants/dmesg.service
+etc_backup/systemd/system/multi-user.target.wants/rsyslog.service
+etc_backup/systemd/system/multi-user.target.wants/grub-initrd-fallback.service
+etc_backup/systemd/system/multi-user.target.wants/snapd.seeded.service
+etc_backup/systemd/system/multi-user.target.wants/open-vm-tools.service
+etc_backup/systemd/system/multi-user.target.wants/thermald.service
+etc_backup/systemd/system/multi-user.target.wants/sysstat.service
+etc_backup/systemd/system/multi-user.target.wants/console-setup.service
+etc_backup/systemd/system/multi-user.target.wants/snapd.recovery-chooser-trigger.service
+etc_backup/systemd/system/multi-user.target.wants/ModemManager.service
+etc_backup/systemd/system/multi-user.target.wants/cron.service
+etc_backup/systemd/system/multi-user.target.wants/remote-fs.target
+etc_backup/systemd/system/multi-user.target.wants/snapd.autoimport.service
+etc_backup/systemd/system/multi-user.target.wants/snapd.apparmor.service
+etc_backup/systemd/system/multi-user.target.wants/secureboot-db.service
+etc_backup/systemd/system/multi-user.target.wants/snapd.core-fixup.service
+etc_backup/systemd/system/multi-user.target.wants/e2scrub_reap.service
+etc_backup/systemd/system/multi-user.target.wants/networkd-dispatcher.service
+etc_backup/systemd/system/multi-user.target.wants/grub-common.service
+etc_backup/systemd/system/multi-user.target.wants/snapd.service
+etc_backup/systemd/system/multi-user.target.wants/ufw.service
+etc_backup/systemd/system/multi-user.target.wants/pollinate.service
+etc_backup/systemd/system/multi-user.target.wants/lxd-installer.socket
+etc_backup/systemd/system/multi-user.target.wants/ua-reboot-cmds.service
+etc_backup/systemd/system/multi-user.target.wants/unattended-upgrades.service
+etc_backup/systemd/system/multi-user.target.wants/systemd-networkd.service
+etc_backup/systemd/system/final.target.wants/
+etc_backup/systemd/system/final.target.wants/snapd.system-shutdown.service
+etc_backup/systemd/system/rescue.target.wants/
+etc_backup/systemd/system/rescue.target.wants/grub-initrd-fallback.service
+etc_backup/systemd/system/network-online.target.wants/
+etc_backup/systemd/system/network-online.target.wants/systemd-networkd-wait-online.service
+etc_backup/systemd/system/suspend.target.wants/
+etc_backup/systemd/system/suspend.target.wants/grub-common.service
+etc_backup/systemd/system/vmtoolsd.service
+etc_backup/systemd/system/dbus-org.freedesktop.ModemManager1.service
+etc_backup/systemd/system/emergency.target.wants/
+etc_backup/systemd/system/emergency.target.wants/grub-initrd-fallback.service
+etc_backup/systemd/system/cloud-final.service.wants/
+etc_backup/systemd/system/cloud-final.service.wants/snapd.seeded.service
+etc_backup/systemd/system/sockets.target.wants/
+etc_backup/systemd/system/sockets.target.wants/dm-event.socket
+etc_backup/systemd/system/sockets.target.wants/systemd-networkd.socket
+etc_backup/systemd/system/sockets.target.wants/snapd.socket
+etc_backup/systemd/system/sockets.target.wants/iscsid.socket
+etc_backup/systemd/system/sockets.target.wants/multipathd.socket
+etc_backup/systemd/system/sockets.target.wants/apport-forward.socket
+etc_backup/systemd/system/sockets.target.wants/ssh.socket
+etc_backup/systemd/system/sockets.target.wants/uuidd.socket
+etc_backup/systemd/system/ssh.service.requires/
+etc_backup/systemd/system/ssh.service.requires/ssh.socket
+etc_backup/systemd/system/dbus-org.freedesktop.resolve1.service
+etc_backup/systemd/system/suspend-then-hibernate.target.wants/
+etc_backup/systemd/system/suspend-then-hibernate.target.wants/grub-common.service
+etc_backup/systemd/system/sysstat.service.wants/
+etc_backup/systemd/system/sysstat.service.wants/sysstat-collect.timer
+etc_backup/systemd/system/sysstat.service.wants/sysstat-summary.timer
+etc_backup/systemd/system/graphical.target.wants/
+etc_backup/systemd/system/graphical.target.wants/udisks2.service
+etc_backup/systemd/system/oem-config.service.wants/
+etc_backup/systemd/system/oem-config.service.wants/gpu-manager.service
+etc_backup/systemd/system/dbus-org.freedesktop.thermald.service
+etc_backup/systemd/system/cloud-init.target.wants/
+etc_backup/systemd/system/cloud-init.target.wants/cloud-final.service
+etc_backup/systemd/system/cloud-init.target.wants/cloud-init-local.service
+etc_backup/systemd/system/cloud-init.target.wants/cloud-init.service
+etc_backup/systemd/system/cloud-init.target.wants/cloud-config.service
+etc_backup/systemd/system/display-manager.service.wants/
+etc_backup/systemd/system/display-manager.service.wants/gpu-manager.service
+etc_backup/systemd/system/paths.target.wants/
+etc_backup/systemd/system/paths.target.wants/apport-autoreport.path
+etc_backup/systemd/system/paths.target.wants/tpm-udev.path
+etc_backup/systemd/system/getty.target.wants/
+etc_backup/systemd/system/getty.target.wants/getty@tty1.service
+etc_backup/systemd/system/timers.target.wants/
+etc_backup/systemd/system/timers.target.wants/ua-timer.timer
+etc_backup/systemd/system/timers.target.wants/apt-daily.timer
+etc_backup/systemd/system/timers.target.wants/motd-news.timer
+etc_backup/systemd/system/timers.target.wants/dpkg-db-backup.timer
+etc_backup/systemd/system/timers.target.wants/logrotate.timer
+etc_backup/systemd/system/timers.target.wants/apport-autoreport.timer
+etc_backup/systemd/system/timers.target.wants/fwupd-refresh.timer
+etc_backup/systemd/system/timers.target.wants/update-notifier-download.timer
+etc_backup/systemd/system/timers.target.wants/snapd.snap-repair.timer
+etc_backup/systemd/system/timers.target.wants/fstrim.timer
+etc_backup/systemd/system/timers.target.wants/update-notifier-motd.timer
+etc_backup/systemd/system/timers.target.wants/apt-daily-upgrade.timer
+etc_backup/systemd/system/timers.target.wants/e2scrub_all.timer
+etc_backup/systemd/system/timers.target.wants/man-db.timer
+etc_backup/systemd/system/open-vm-tools.service.requires/
+etc_backup/systemd/system/open-vm-tools.service.requires/vgauth.service
+etc_backup/systemd/system/sleep.target.wants/
+etc_backup/systemd/system/sleep.target.wants/grub-initrd-fallback.service
+etc_backup/systemd/system/mdmonitor.service.wants/
+etc_backup/systemd/system/mdmonitor.service.wants/mdcheck_continue.timer
+etc_backup/systemd/system/mdmonitor.service.wants/mdcheck_start.timer
+etc_backup/systemd/system/mdmonitor.service.wants/mdmonitor-oneshot.timer
+etc_backup/systemd/system/dbus-org.freedesktop.timesync1.service
+etc_backup/systemd/system/iscsi.service
+etc_backup/systemd/system/hibernate.target.wants/
+etc_backup/systemd/system/hibernate.target.wants/grub-common.service
+etc_backup/systemd/system/sysinit.target.wants/
+etc_backup/systemd/system/sysinit.target.wants/finalrd.service
+etc_backup/systemd/system/sysinit.target.wants/apparmor.service
+etc_backup/systemd/system/sysinit.target.wants/multipathd.service
+etc_backup/systemd/system/sysinit.target.wants/lvm2-monitor.service
+etc_backup/systemd/system/sysinit.target.wants/lvm2-lvmpolld.socket
+etc_backup/systemd/system/sysinit.target.wants/blk-availability.service
+etc_backup/systemd/system/sysinit.target.wants/open-iscsi.service
+etc_backup/systemd/system/sysinit.target.wants/keyboard-setup.service
+etc_backup/systemd/system/sysinit.target.wants/setvtrgb.service
+etc_backup/systemd/system/sysinit.target.wants/systemd-resolved.service
+etc_backup/systemd/system/sysinit.target.wants/systemd-pstore.service
+etc_backup/systemd/system/sysinit.target.wants/systemd-timesyncd.service
+etc_backup/systemd/system/cloud-config.target.wants/
+etc_backup/systemd/system/cloud-config.target.wants/cloud-init-hotplugd.socket
+etc_backup/systemd/system/hybrid-sleep.target.wants/
+etc_backup/systemd/system/hybrid-sleep.target.wants/grub-common.service
+etc_backup/systemd/system/syslog.service
+etc_backup/systemd/timesyncd.conf
+etc_backup/systemd/resolved.conf
+etc_backup/systemd/network/
+etc_backup/systemd/user.conf
+etc_backup/rpc
+etc_backup/sysctl.conf
+etc_backup/rsyslog.d/
+etc_backup/rsyslog.d/50-default.conf
+etc_backup/rsyslog.d/20-ufw.conf
+etc_backup/rsyslog.d/21-cloudinit.conf
+etc_backup/qemu/
+etc_backup/qemu/fsfreeze-hook
+etc_backup/qemu/fsfreeze-hook.d/
+etc_backup/vtrgb
+etc_backup/passwd
+etc_backup/nftables.conf
+etc_backup/cloud/
+etc_backup/cloud/ds-identify.cfg
+etc_backup/cloud/cloud.cfg
+etc_backup/cloud/cloud.cfg.d/
+etc_backup/cloud/cloud.cfg.d/99-installer.cfg
+etc_backup/cloud/cloud.cfg.d/20-disable-cc-dpkg-grub.cfg
+etc_backup/cloud/cloud.cfg.d/90_dpkg.cfg
+etc_backup/cloud/cloud.cfg.d/curtin-preserve-sources.cfg
+etc_backup/cloud/cloud.cfg.d/README
+etc_backup/cloud/cloud.cfg.d/05_logging.cfg
+etc_backup/cloud/cloud.cfg.d/90-installer-network.cfg
+etc_backup/cloud/clean.d/
+etc_backup/cloud/clean.d/99-installer
+etc_backup/cloud/cloud-init.disabled
+etc_backup/cloud/templates/
+etc_backup/cloud/templates/chrony.conf.sle_hpc.tmpl
+etc_backup/cloud/templates/chrony.conf.freebsd.tmpl
+etc_backup/cloud/templates/hosts.redhat.tmpl
+etc_backup/cloud/templates/hosts.debian.tmpl
+etc_backup/cloud/templates/hosts.freebsd.tmpl
+etc_backup/cloud/templates/chrony.conf.alpine.tmpl
+etc_backup/cloud/templates/ntp.conf.almalinux.tmpl
+etc_backup/cloud/templates/hosts.gentoo.tmpl
+etc_backup/cloud/templates/chrony.conf.opensuse-leap.tmpl
+etc_backup/cloud/templates/ntp.conf.alpine.tmpl
+etc_backup/cloud/templates/chrony.conf.cloudlinux.tmpl
+etc_backup/cloud/templates/sources.list.ubuntu.tmpl
+etc_backup/cloud/templates/hosts.azurelinux.tmpl
+etc_backup/cloud/templates/ntp.conf.ubuntu.tmpl
+etc_backup/cloud/templates/sources.list.debian.deb822.tmpl
+etc_backup/cloud/templates/chrony.conf.opensuse-tumbleweed.tmpl
+etc_backup/cloud/templates/ntp.conf.debian.tmpl
+etc_backup/cloud/templates/chrony.conf.sles.tmpl
+etc_backup/cloud/templates/sources.list.debian.tmpl
+etc_backup/cloud/templates/hosts.alpine.tmpl
+etc_backup/cloud/templates/chrony.conf.photon.tmpl
+etc_backup/cloud/templates/timesyncd.conf.tmpl
+etc_backup/cloud/templates/chrony.conf.cos.tmpl
+etc_backup/cloud/templates/hosts.arch.tmpl
+etc_backup/cloud/templates/ntp.conf.rhel.tmpl
+etc_backup/cloud/templates/chrony.conf.debian.tmpl
+etc_backup/cloud/templates/hosts.aosc.tmpl
+etc_backup/cloud/templates/ntp.conf.freebsd.tmpl
+etc_backup/cloud/templates/hosts.mariner.tmpl
+etc_backup/cloud/templates/hosts.suse.tmpl
+etc_backup/cloud/templates/chef_client.rb.tmpl
+etc_backup/cloud/templates/ntpd.conf.openbsd.tmpl
+etc_backup/cloud/templates/chrony.conf.centos.tmpl
+etc_backup/cloud/templates/sources.list.ubuntu.deb822.tmpl
+etc_backup/cloud/templates/ntp.conf.rocky.tmpl
+etc_backup/cloud/templates/ntp.conf.opensuse.tmpl
+etc_backup/cloud/templates/chrony.conf.fedora.tmpl
+etc_backup/cloud/templates/resolv.conf.tmpl
+etc_backup/cloud/templates/chrony.conf.ubuntu.tmpl
+etc_backup/cloud/templates/ntp.conf.cloudlinux.tmpl
+etc_backup/cloud/templates/chrony.conf.sle-micro.tmpl
+etc_backup/cloud/templates/ntp.conf.sles.tmpl
+etc_backup/cloud/templates/chrony.conf.almalinux.tmpl
+etc_backup/cloud/templates/ntp.conf.fedora.tmpl
+etc_backup/cloud/templates/chrony.conf.opensuse-microos.tmpl
+etc_backup/cloud/templates/chrony.conf.rhel.tmpl
+etc_backup/cloud/templates/chrony.conf.opensuse.tmpl
+etc_backup/cloud/templates/chrony.conf.rocky.tmpl
+etc_backup/cloud/templates/ntp.conf.photon.tmpl
+etc_backup/cloud/templates/hosts.photon.tmpl
+etc_backup/cloud/templates/systemd.resolved.conf.tmpl
+etc_backup/locale.gen
+etc_backup/tmpfiles.d/
+etc_backup/tmpfiles.d/screen-cleanup.conf
+etc_backup/udisks2/
+etc_backup/udisks2/udisks2.conf
+etc_backup/udisks2/mount_options.conf.example
+etc_backup/nsswitch.conf
+etc_backup/group
+etc_backup/ld.so.conf
+etc_backup/PackageKit/
+etc_backup/PackageKit/Vendor.conf
+etc_backup/PackageKit/PackageKit.conf
+etc_backup/magic.mime
+etc_backup/udev/
+etc_backup/udev/hwdb.d/
+etc_backup/udev/udev.conf
+etc_backup/udev/iocost.conf
+etc_backup/udev/rules.d/
+etc_backup/udev/rules.d/ubuntu--vg-ubuntu--lv.rules
+etc_backup/os-release
+etc_backup/vconsole.conf
+etc_backup/multipath.conf
+etc_backup/overlayroot.conf
+etc_backup/console-setup/
+etc_backup/console-setup/compose.ISO-8859-10.inc
+etc_backup/console-setup/compose.GEORGIAN-PS.inc
+etc_backup/console-setup/compose.ISO-8859-5.inc
+etc_backup/console-setup/cached_setup_terminal.sh
+etc_backup/console-setup/compose.CP1255.inc
+etc_backup/console-setup/compose.CP1256.inc
+etc_backup/console-setup/vtrgb
+etc_backup/console-setup/compose.ISO-8859-16.inc
+etc_backup/console-setup/cached_UTF-8_del.kmap.gz
+etc_backup/console-setup/cached_Uni2-Fixed16.psf.gz
+etc_backup/console-setup/compose.ISO-8859-1.inc
+etc_backup/console-setup/cached_ISO-8859-1_del.kmap.gz
+etc_backup/console-setup/compose.ISO-8859-14.inc
+etc_backup/console-setup/vtrgb.vga
+etc_backup/console-setup/compose.ISO-8859-15.inc
+etc_backup/console-setup/compose.KOI8-R.inc
+etc_backup/console-setup/compose.ISO-8859-13.inc
+etc_backup/console-setup/compose.ISO-8859-3.inc
+etc_backup/console-setup/compose.ISO-8859-4.inc
+etc_backup/console-setup/remap.inc
+etc_backup/console-setup/compose.IBM1133.inc
+etc_backup/console-setup/compose.ISO-8859-11.inc
+etc_backup/console-setup/compose.ISO-8859-7.inc
+etc_backup/console-setup/compose.VISCII.inc
+etc_backup/console-setup/compose.GEORGIAN-ACADEMY.inc
+etc_backup/console-setup/compose.ISO-8859-2.inc
+etc_backup/console-setup/compose.ISO-8859-6.inc
+etc_backup/console-setup/compose.CP1251.inc
+etc_backup/console-setup/cached_setup_font.sh
+etc_backup/console-setup/compose.ISIRI-3342.inc
+etc_backup/console-setup/compose.ISO-8859-9.inc
+etc_backup/console-setup/compose.KOI8-U.inc
+etc_backup/console-setup/compose.TIS-620.inc
+etc_backup/console-setup/compose.ISO-8859-8.inc
+etc_backup/console-setup/ISO-8859-1.acm
+etc_backup/console-setup/Uni2-Fixed16.psf.gz
+etc_backup/console-setup/cached_setup_keyboard.sh
+etc_backup/console-setup/compose.ARMSCII-8.inc
+etc_backup/console-setup/cached_ISO-8859-1.acm.gz
+etc_backup/rc6.d/
+etc_backup/rc6.d/K01uuidd
+etc_backup/rc6.d/K01iscsid
+etc_backup/rc6.d/K01cryptdisks-early
+etc_backup/rc6.d/K01cryptdisks
+etc_backup/rc6.d/K01plymouth
+etc_backup/rc6.d/K01open-iscsi
+etc_backup/rc6.d/K01qemu-guest-agent
+etc_backup/rc6.d/K01unattended-upgrades
+etc_backup/rc6.d/K01open-vm-tools
+etc_backup/passwd-
+etc_backup/dhcp/
+etc_backup/dhcp/dhclient-exit-hooks.d/
+etc_backup/dhcp/dhclient-exit-hooks.d/timesyncd
+etc_backup/hdparm.conf
+etc_backup/ld.so.cache
+etc_backup/group-
+etc_backup/cron.monthly/
+etc_backup/cron.monthly/.placeholder
+etc_backup/sysstat/
+etc_backup/sysstat/sysstat
+etc_backup/sysstat/sysstat.ioconf
+etc_backup/resolv.conf
+etc_backup/newt/
+etc_backup/newt/palette.ubuntu
+etc_backup/newt/palette.original
+etc_backup/newt/palette
+etc_backup/pm/
+etc_backup/pm/sleep.d/
+etc_backup/pm/sleep.d/10_grub-common
+etc_backup/pm/sleep.d/10_unattended-upgrades-hibernate
+etc_backup/ubuntu-advantage/
+etc_backup/ubuntu-advantage/uaclient.conf
+etc_backup/rc2.d/
+etc_backup/rc2.d/S01uuidd
+etc_backup/rc2.d/S01grub-common
+etc_backup/rc2.d/S01rsync
+etc_backup/rc2.d/S01plymouth
+etc_backup/rc2.d/S01dbus
+etc_backup/rc2.d/S01sysstat
+etc_backup/rc2.d/S01console-setup.sh
+etc_backup/rc2.d/S01open-vm-tools
+etc_backup/rc2.d/S01ssh
+etc_backup/rc2.d/S01qemu-guest-agent
+etc_backup/rc2.d/S01cron
+etc_backup/rc2.d/S01unattended-upgrades
+etc_backup/rc2.d/S01apport
+etc_backup/usb_modeswitch.d/
+etc_backup/debian_version
+etc_backup/shadow-
+etc_backup/xml/
+etc_backup/xml/polkitd.xml.old
+etc_backup/xml/catalog
+etc_backup/xml/xml-core.xml
+etc_backup/xml/catalog.old
+etc_backup/xml/xml-core.xml.old
+etc_backup/xml/polkitd.xml
+etc_backup/terminfo/
+etc_backup/terminfo/README
+etc_backup/rc3.d/
+etc_backup/rc3.d/S01uuidd
+etc_backup/rc3.d/S01grub-common
+etc_backup/rc3.d/S01rsync
+etc_backup/rc3.d/S01plymouth
+etc_backup/rc3.d/S01dbus
+etc_backup/rc3.d/S01sysstat
+etc_backup/rc3.d/S01console-setup.sh
+etc_backup/rc3.d/S01open-vm-tools
+etc_backup/rc3.d/S01ssh
+etc_backup/rc3.d/S01qemu-guest-agent
+etc_backup/rc3.d/S01cron
+etc_backup/rc3.d/S01unattended-upgrades
+etc_backup/rc3.d/S01apport
+etc_backup/environment
+etc_backup/bash.bashrc
+etc_backup/byobu/
+etc_backup/byobu/backend
+etc_backup/byobu/socketdir
+etc_backup/login.defs
+etc_backup/modules-load.d/
+etc_backup/modules-load.d/modules.conf
+etc_backup/bash_completion
+etc_backup/pam.conf
+etc_backup/.updated
+etc_backup/cron.d/
+etc_backup/cron.d/sysstat
+etc_backup/cron.d/e2scrub_all
+etc_backup/cron.d/.placeholder
+etc_backup/sensors3.conf
+etc_backup/perl/
+etc_backup/perl/Net/
+etc_backup/perl/Net/libnet.cfg
+etc_backup/modprobe.d/
+etc_backup/modprobe.d/amd64-microcode-blacklist.conf
+etc_backup/modprobe.d/blacklist-rare-network.conf
+etc_backup/modprobe.d/iwlwifi.conf
+etc_backup/modprobe.d/blacklist.conf
+etc_backup/modprobe.d/intel-microcode-blacklist.conf
+etc_backup/modprobe.d/blacklist-ath_pci.conf
+etc_backup/modprobe.d/blacklist-firewire.conf
+etc_backup/modprobe.d/mdadm.conf
+etc_backup/modprobe.d/blacklist-framebuffer.conf
+etc_backup/rc1.d/
+etc_backup/rc1.d/K01uuidd
+etc_backup/rc1.d/K01iscsid
+etc_backup/rc1.d/K01open-iscsi
+etc_backup/rc1.d/K01qemu-guest-agent
+etc_backup/rc1.d/K01ufw
+etc_backup/rc1.d/K01open-vm-tools
+etc_backup/mdadm/
+etc_backup/mdadm/mdadm.conf
+etc_backup/cryptsetup-initramfs/
+etc_backup/cryptsetup-initramfs/conf-hook
+etc_backup/python3/
+etc_backup/python3/debian_config
+etc_backup/sysctl.d/
+etc_backup/sysctl.d/10-magic-sysrq.conf
+etc_backup/sysctl.d/10-ptrace.conf
+etc_backup/sysctl.d/10-console-messages.conf
+etc_backup/sysctl.d/10-ipv6-privacy.conf
+etc_backup/sysctl.d/README.sysctl
+etc_backup/sysctl.d/10-network-security.conf
+etc_backup/sysctl.d/10-kernel-hardening.conf
+etc_backup/sysctl.d/10-map-count.conf
+etc_backup/sysctl.d/99-sysctl.conf
+etc_backup/sysctl.d/10-bufferbloat.conf
+etc_backup/sysctl.d/10-zeropage.conf
+etc_backup/e2scrub.conf
+etc_backup/.resolv.conf.systemd-resolved.bak
+etc_backup/opt/
+etc_backup/logrotate.d/
+etc_backup/logrotate.d/cloud-init
+etc_backup/logrotate.d/alternatives
+etc_backup/logrotate.d/unattended-upgrades
+etc_backup/logrotate.d/rsyslog
+etc_backup/logrotate.d/ubuntu-pro-client
+etc_backup/logrotate.d/wtmp
+etc_backup/logrotate.d/btmp
+etc_backup/logrotate.d/bootlog
+etc_backup/logrotate.d/apport
+etc_backup/logrotate.d/ufw
+etc_backup/logrotate.d/dpkg
+etc_backup/logrotate.d/apt
+etc_backup/networkd-dispatcher/
+etc_backup/networkd-dispatcher/routable.d/
+etc_backup/networkd-dispatcher/off.d/
+etc_backup/networkd-dispatcher/dormant.d/
+etc_backup/networkd-dispatcher/degraded.d/
+etc_backup/networkd-dispatcher/no-carrier.d/
+etc_backup/networkd-dispatcher/carrier.d/
+etc_backup/crontab
+etc_backup/adduser.conf
+etc_backup/fstab
+etc_backup/lsb-release
+etc_backup/grub.d/
+etc_backup/grub.d/41_custom
+etc_backup/grub.d/25_bli
+etc_backup/grub.d/30_os-prober
+etc_backup/grub.d/00_header
+etc_backup/grub.d/20_linux_xen
+etc_backup/grub.d/30_uefi-firmware
+etc_backup/grub.d/README
+etc_backup/grub.d/40_custom
+etc_backup/grub.d/35_fwupd
+etc_backup/grub.d/10_linux
+etc_backup/grub.d/10_linux_zfs
+etc_backup/grub.d/05_debian_theme
+etc_backup/mime.types
+etc_backup/locale.conf
+etc_backup/hosts.allow
+etc_backup/sudo_logsrvd.conf
+etc_backup/netplan/
+etc_backup/netplan/50-cloud-init.yaml
+etc_backup/magic
+etc_backup/init.d/
+etc_backup/init.d/unattended-upgrades
+etc_backup/init.d/cryptdisks-early
+etc_backup/init.d/sysstat
+etc_backup/init.d/dbus
+etc_backup/init.d/open-iscsi
+etc_backup/init.d/procps
+etc_backup/init.d/qemu-guest-agent
+etc_backup/init.d/open-vm-tools
+etc_backup/init.d/cryptdisks
+etc_backup/init.d/apport
+etc_backup/init.d/uuidd
+etc_backup/init.d/console-setup.sh
+etc_backup/init.d/rsync
+etc_backup/init.d/grub-common
+etc_backup/init.d/ufw
+etc_backup/init.d/ssh
+etc_backup/init.d/keyboard-setup.sh
+etc_backup/init.d/screen-cleanup
+etc_backup/init.d/iscsid
+etc_backup/init.d/plymouth-log
+etc_backup/init.d/apparmor
+etc_backup/init.d/cron
+etc_backup/init.d/kmod
+etc_backup/init.d/plymouth
+etc_backup/ModemManager/
+etc_backup/ModemManager/connection.d/
+etc_backup/ModemManager/fcc-unlock.d/
+etc_backup/cron.hourly/
+etc_backup/cron.hourly/.placeholder
+etc_backup/localtime
+etc_backup/modules
+etc_backup/logrotate.conf
+etc_backup/shadow
+etc_backup/xdg/
+etc_backup/xdg/systemd/
+etc_backup/xdg/systemd/user
+etc_backup/xdg/autostart/
+etc_backup/xdg/autostart/xdg-user-dirs.desktop
+etc_backup/xdg/autostart/snap-userd-autostart.desktop
+etc_backup/xdg/user-dirs.defaults
+etc_backup/xdg/user-dirs.conf
+etc_backup/services
+etc_backup/rsyslog.conf
+etc_backup/python3.12/
+etc_backup/python3.12/sitecustomize.py
+etc_backup/manpath.config
+etc_backup/deluser.conf
+etc_backup/networks
+etc_backup/sudoers
+etc_backup/libblockdev/
+etc_backup/libblockdev/3/
+etc_backup/libblockdev/3/conf.d/
+etc_backup/libblockdev/3/conf.d/00-default.cfg
+etc_backup/update-motd.d/
+etc_backup/update-motd.d/98-fsck-at-reboot
+etc_backup/update-motd.d/95-hwe-eol
+etc_backup/update-motd.d/97-overlayroot
+etc_backup/update-motd.d/98-reboot-required
+etc_backup/update-motd.d/10-help-text
+etc_backup/update-motd.d/92-unattended-upgrades
+etc_backup/update-motd.d/00-header
+etc_backup/update-motd.d/50-motd-news
+etc_backup/update-motd.d/50-landscape-sysinfo
+etc_backup/update-motd.d/91-contract-ua-esm-status
+etc_backup/update-motd.d/85-fwupd
+etc_backup/update-motd.d/90-updates-available
+etc_backup/update-motd.d/91-release-upgrade
+etc_backup/bash_completion.d/
+etc_backup/bash_completion.d/git-prompt
+etc_backup/sudo.conf
+etc_backup/libnl-3/
+etc_backup/libnl-3/pktloc
+etc_backup/libnl-3/classid
+etc_backup/apport/
+etc_backup/apport/report-ignore/
+etc_backup/apport/report-ignore/README.denylist
+etc_backup/apport/crashdb.conf
+etc_backup/hosts
+etc_backup/ca-certificates/
+etc_backup/ca-certificates/update.d/
+etc_backup/debconf.conf
+etc_backup/depmod.d/
+etc_backup/depmod.d/ubuntu.conf
+etc_backup/polkit-1/
+etc_backup/polkit-1/rules.d/
+etc_backup/update-notifier/
+etc_backup/host.conf
+etc_backup/rc0.d/
+etc_backup/rc0.d/K01uuidd
+etc_backup/rc0.d/K01iscsid
+etc_backup/rc0.d/K01cryptdisks-early
+etc_backup/rc0.d/K01cryptdisks
+etc_backup/rc0.d/K01plymouth
+etc_backup/rc0.d/K01open-iscsi
+etc_backup/rc0.d/K01qemu-guest-agent
+etc_backup/rc0.d/K01unattended-upgrades
+etc_backup/rc0.d/K01open-vm-tools
+etc_backup/selinux/
+etc_backup/selinux/semanage.conf
+etc_backup/pki/
+etc_backup/pki/fwupd/
+etc_backup/pki/fwupd/LVFS-CA.pem
+etc_backup/pki/fwupd/GPG-KEY-Linux-Vendor-Firmware-Service
+etc_backup/pki/fwupd/GPG-KEY-Linux-Foundation-Firmware
+etc_backup/pki/fwupd-metadata/
+etc_backup/pki/fwupd-metadata/GPG-KEY-Linux-Foundation-Metadata
+etc_backup/pki/fwupd-metadata/LVFS-CA.pem
+etc_backup/pki/fwupd-metadata/GPG-KEY-Linux-Vendor-Firmware-Service
+etc_backup/multipath/
+etc_backup/multipath/bindings
+etc_backup/multipath/wwids
+etc_backup/mtab
+etc_backup/libibverbs.d/
+etc_backup/libibverbs.d/mthca.driver
+etc_backup/libibverbs.d/mlx4.driver
+etc_backup/libibverbs.d/mlx5.driver
+etc_backup/libibverbs.d/siw.driver
+etc_backup/libibverbs.d/cxgb4.driver
+etc_backup/libibverbs.d/ipathverbs.driver
+etc_backup/libibverbs.d/irdma.driver
+etc_backup/libibverbs.d/vmw_pvrdma.driver
+etc_backup/libibverbs.d/hfi1verbs.driver
+etc_backup/libibverbs.d/bnxt_re.driver
+etc_backup/libibverbs.d/rxe.driver
+etc_backup/libibverbs.d/erdma.driver
+etc_backup/libibverbs.d/efa.driver
+etc_backup/libibverbs.d/qedr.driver
+etc_backup/libibverbs.d/mana.driver
+etc_backup/libibverbs.d/ocrdma.driver
+etc_backup/libibverbs.d/hns.driver
+etc_backup/ufw/
+etc_backup/ufw/after.rules
+etc_backup/ufw/user6.rules
+etc_backup/ufw/after.init
+etc_backup/ufw/before.rules
+etc_backup/ufw/applications.d/
+etc_backup/ufw/applications.d/openssh-server
+etc_backup/ufw/sysctl.conf
+etc_backup/ufw/ufw.conf
+etc_backup/ufw/before6.rules
+etc_backup/ufw/user.rules
+etc_backup/ufw/after6.rules
+etc_backup/ufw/before.init
+etc_backup/wgetrc
+etc_backup/ssh/
+etc_backup/ssh/sshd_config.d/
+etc_backup/ssh/sshd_config.d/50-cloud-init.conf
+etc_backup/ssh/ssh_config
+etc_backup/ssh/ssh_host_ecdsa_key.pub
+etc_backup/ssh/ssh_import_id
+etc_backup/ssh/ssh_host_rsa_key.pub
+etc_backup/ssh/ssh_host_ed25519_key.pub
+etc_backup/ssh/sshd_config.ucf-dist
+etc_backup/ssh/ssh_host_ed25519_key
+etc_backup/ssh/moduli
+etc_backup/ssh/sshd_config
+etc_backup/ssh/ssh_host_ecdsa_key
+etc_backup/ssh/ssh_host_rsa_key
+etc_backup/ssh/ssh_config.d/
+etc_backup/UPower/
+etc_backup/UPower/UPower.conf
+etc_backup/cron.daily/
+etc_backup/cron.daily/sysstat
+etc_backup/cron.daily/man-db
+etc_backup/cron.daily/logrotate
+etc_backup/cron.daily/apport
+etc_backup/cron.daily/dpkg
+etc_backup/cron.daily/apt-compat
+etc_backup/cron.daily/.placeholder
+etc_backup/update-manager/
+etc_backup/update-manager/meta-release
+etc_backup/update-manager/release-upgrades.d/
+etc_backup/update-manager/release-upgrades.d/ubuntu-advantage-upgrades.cfg
+etc_backup/update-manager/release-upgrades
+etc_backup/iscsi/
+etc_backup/iscsi/initiatorname.iscsi
+etc_backup/iscsi/iscsid.conf
+etc_backup/binfmt.d/
+etc_backup/protocols
+etc_backup/gshadow
+etc_backup/skel/
+etc_backup/skel/.profile
+etc_backup/skel/.bash_logout
+etc_backup/skel/.bashrc
+etc_backup/vmware-tools/
+etc_backup/vmware-tools/vgauth.conf
+etc_backup/vmware-tools/tools.conf.example
+etc_backup/vmware-tools/poweron-vm-default
+etc_backup/vmware-tools/suspend-vm-default
+etc_backup/vmware-tools/vgauth/
+etc_backup/vmware-tools/vgauth/schemas/
+etc_backup/vmware-tools/vgauth/schemas/datatypes.dtd
+etc_backup/vmware-tools/vgauth/schemas/XMLSchema.xsd
+etc_backup/vmware-tools/vgauth/schemas/XMLSchema-instance.xsd
+etc_backup/vmware-tools/vgauth/schemas/catalog.xml
+etc_backup/vmware-tools/vgauth/schemas/XMLSchema-hasFacetAndProperty.xsd
+etc_backup/vmware-tools/vgauth/schemas/xenc-schema.xsd
+etc_backup/vmware-tools/vgauth/schemas/XMLSchema.dtd
+etc_backup/vmware-tools/vgauth/schemas/xml.xsd
+etc_backup/vmware-tools/vgauth/schemas/saml-schema-assertion-2.0.xsd
+etc_backup/vmware-tools/vgauth/schemas/xmldsig-core-schema.xsd
+etc_backup/vmware-tools/poweroff-vm-default
+etc_backup/vmware-tools/resume-vm-default
+etc_backup/vmware-tools/scripts/
+etc_backup/vmware-tools/scripts/vmware/
+etc_backup/vmware-tools/scripts/vmware/network
+etc_backup/vmware-tools/statechange.subr
+etc_backup/vmware-tools/tools.conf
+etc_backup/security/
+etc_backup/security/limits.conf
+etc_backup/security/time.conf
+etc_backup/security/namespace.conf
+etc_backup/security/group.conf
+etc_backup/security/pam_env.conf
+etc_backup/security/pwhistory.conf
+etc_backup/security/capability.conf
+etc_backup/security/sepermit.conf
+etc_backup/security/namespace.init
+etc_backup/security/access.conf
+etc_backup/security/opasswd
+etc_backup/security/namespace.d/
+etc_backup/security/limits.d/
+etc_backup/security/faillock.conf
+etc_backup/kernel/
+etc_backup/kernel/postrm.d/
+etc_backup/kernel/postrm.d/zz-update-grub
+etc_backup/kernel/postrm.d/initramfs-tools
+etc_backup/kernel/preinst.d/
+etc_backup/kernel/preinst.d/intel-microcode
+etc_backup/kernel/install.d/
+etc_backup/kernel/postinst.d/
+etc_backup/kernel/postinst.d/unattended-upgrades
+etc_backup/kernel/postinst.d/update-notifier
+etc_backup/kernel/postinst.d/zz-update-grub
+etc_backup/kernel/postinst.d/xx-update-initrd-links
+etc_backup/kernel/postinst.d/initramfs-tools
+etc_backup/subuid
+etc_backup/nanorc
+etc_backup/gss/
+etc_backup/gss/mech.d/
+etc_backup/vim/
+etc_backup/vim/vimrc
+etc_backup/vim/vimrc.tiny
+etc_backup/groff/
+etc_backup/groff/mdoc.local
+etc_backup/groff/man.local
+etc_backup/ucf.conf
+etc_backup/ethertypes
+etc_backup/sgml/
+etc_backup/sgml/xml-core.cat
+etc_backup/sgml/catalog
+etc_backup/dpkg/
+etc_backup/dpkg/dpkg.cfg.d/
+etc_backup/dpkg/dpkg.cfg.d/needrestart
+etc_backup/dpkg/dpkg.cfg
+etc_backup/dpkg/origins/
+etc_backup/dpkg/origins/debian
+etc_backup/dpkg/origins/ubuntu
+etc_backup/dpkg/origins/default
+etc_backup/rc5.d/
+etc_backup/rc5.d/S01uuidd
+etc_backup/rc5.d/S01grub-common
+etc_backup/rc5.d/S01rsync
+etc_backup/rc5.d/S01plymouth
+etc_backup/rc5.d/S01dbus
+etc_backup/rc5.d/S01sysstat
+etc_backup/rc5.d/S01console-setup.sh
+etc_backup/rc5.d/S01open-vm-tools
+etc_backup/rc5.d/S01ssh
+etc_backup/rc5.d/S01qemu-guest-agent
+etc_backup/rc5.d/S01cron
+etc_backup/rc5.d/S01unattended-upgrades
+etc_backup/rc5.d/S01apport
+etc_backup/netconfig
+etc_backup/fuse.conf
+etc_backup/apt/
+etc_backup/apt/preferences.d/
+etc_backup/apt/preferences.d/ubuntu-pro-esm-apps
+etc_backup/apt/preferences.d/ubuntu-pro-esm-infra
+etc_backup/apt/sources.list
+etc_backup/apt/sources.list.d/
+etc_backup/apt/sources.list.d/ubuntu.sources
+etc_backup/apt/sources.list.d/ubuntu.sources.curtin.orig
+etc_backup/apt/keyrings/
+etc_backup/apt/trusted.gpg.d/
+etc_backup/apt/trusted.gpg.d/ubuntu-keyring-2018-archive.gpg
+etc_backup/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
+etc_backup/apt/apt.conf.d/
+etc_backup/apt/apt.conf.d/01-vendor-ubuntu
+etc_backup/apt/apt.conf.d/20packagekit
+etc_backup/apt/apt.conf.d/20snapd.conf
+etc_backup/apt/apt.conf.d/01autoremove
+etc_backup/apt/apt.conf.d/20apt-esm-hook.conf
+etc_backup/apt/apt.conf.d/99needrestart
+etc_backup/apt/apt.conf.d/10periodic
+etc_backup/apt/apt.conf.d/70debconf
+etc_backup/apt/apt.conf.d/15update-stamp
+etc_backup/apt/apt.conf.d/20auto-upgrades
+etc_backup/apt/apt.conf.d/50command-not-found
+etc_backup/apt/apt.conf.d/20archive
+etc_backup/apt/apt.conf.d/50appstream
+etc_backup/apt/apt.conf.d/50unattended-upgrades
+etc_backup/apt/apt.conf.d/99update-notifier
+etc_backup/apt/auth.conf.d/
+etc_backup/apt/preferences.d.save/
+etc_backup/apt/preferences.d.save/ubuntu-pro-esm-apps
+etc_backup/apt/preferences.d.save/ubuntu-pro-esm-infra
+etc_backup/supercat/
+etc_backup/supercat/spcrc-crontab
+etc_backup/supercat/spcrc-crontab-light
+etc_backup/pam.d/
+etc_backup/pam.d/chfn
+etc_backup/pam.d/sshd
+etc_backup/pam.d/passwd
+etc_backup/pam.d/su-l
+etc_backup/pam.d/runuser-l
+etc_backup/pam.d/vmtoolsd
+etc_backup/pam.d/runuser
+etc_backup/pam.d/chpasswd
+etc_backup/pam.d/newusers
+etc_backup/pam.d/common-session-noninteractive
+etc_backup/pam.d/sudo-i
+etc_backup/pam.d/su
+etc_backup/pam.d/sudo
+etc_backup/pam.d/common-auth
+etc_backup/pam.d/login
+etc_backup/pam.d/other
+etc_backup/pam.d/chsh
+etc_backup/pam.d/cron
+etc_backup/pam.d/common-account
+etc_backup/pam.d/common-password
+etc_backup/pam.d/common-session
+etc_backup/ld.so.conf.d/
+etc_backup/ld.so.conf.d/x86_64-linux-gnu.conf
+etc_backup/ld.so.conf.d/libc.conf
+etc_backup/motd
+etc_backup/subgid-
+etc_backup/crypttab
+etc_backup/iproute2/
+etc_backup/iproute2/rt_dsfield
+etc_backup/iproute2/bpf_pinning
+etc_backup/iproute2/group
+etc_backup/iproute2/rt_tables
+etc_backup/iproute2/rt_realms
+etc_backup/iproute2/rt_scopes
+etc_backup/iproute2/ematch_map
+etc_backup/iproute2/nl_protos
+etc_backup/iproute2/rt_protos
+etc_backup/iproute2/rt_tables.d/
+etc_backup/iproute2/rt_tables.d/README
+etc_backup/iproute2/rt_protos.d/
+etc_backup/iproute2/rt_protos.d/README
+etc_backup/apparmor/
+etc_backup/apparmor/parser.conf
+etc_backup/mke2fs.conf
+etc_backup/lvm/
+etc_backup/lvm/profile/
+etc_backup/lvm/profile/thin-performance.profile
+etc_backup/lvm/profile/command_profile_template.profile
+etc_backup/lvm/profile/cache-mq.profile
+etc_backup/lvm/profile/cache-smq.profile
+etc_backup/lvm/profile/lvmdbusd.profile
+etc_backup/lvm/profile/metadata_profile_template.profile
+etc_backup/lvm/profile/thin-generic.profile
+etc_backup/lvm/profile/vdo-small.profile
+etc_backup/lvm/backup/
+etc_backup/lvm/backup/ubuntu-vg
+etc_backup/lvm/lvm.conf
+etc_backup/lvm/lvmlocal.conf
+etc_backup/usb_modeswitch.conf
+etc_backup/ldap/
+etc_backup/ldap/ldap.conf
+etc_backup/libaudit.conf
+etc_backup/rcS.d/
+etc_backup/rcS.d/S01kmod
+etc_backup/rcS.d/K01iscsid
+etc_backup/rcS.d/S01procps
+etc_backup/rcS.d/S01plymouth-log
+etc_backup/rcS.d/S01screen-cleanup
+etc_backup/rcS.d/S01cryptdisks
+etc_backup/rcS.d/K01open-iscsi
+etc_backup/rcS.d/S01keyboard-setup.sh
+etc_backup/rcS.d/S01cryptdisks-early
+etc_backup/rcS.d/S01apparmor
+etc_backup/rcS.d/S01ufw
+etc_backup/sensors.d/
+etc_backup/sensors.d/.placeholder
+etc_backup/pollinate/
+etc_backup/pollinate/entropy.ubuntu.com.pem
+etc_backup/pollinate/add-user-agent
+etc_backup/network/
+etc_backup/network/if-pre-up.d/
+etc_backup/network/if-pre-up.d/ethtool
+etc_backup/network/if-up.d/
+etc_backup/network/if-up.d/ethtool
+etc_backup/zsh_command_not_found
+etc_backup/xattr.conf
+etc_backup/dhcpcd.conf
+etc_backup/subgid
+etc_backup/profile.d/
+etc_backup/profile.d/Z99-cloudinit-warnings.sh
+etc_backup/profile.d/Z99-cloud-locale-test.sh
+etc_backup/profile.d/Z97-byobu.sh
+etc_backup/profile.d/gawk.csh
+etc_backup/profile.d/01-locale-fix.sh
+etc_backup/profile.d/gawk.sh
+etc_backup/profile.d/bash_completion.sh
+etc_backup/profile.d/apps-bin-path.sh
+etc_backup/screenrc
+etc_backup/timezone
+etc_backup/gnutls/
+etc_backup/gnutls/config
+etc_backup/subuid-
+etc_backup/cron.weekly/
+etc_backup/cron.weekly/man-db
+etc_backup/cron.weekly/.placeholder
+etc_backup/initramfs-tools/
+etc_backup/initramfs-tools/conf.d/
+etc_backup/initramfs-tools/initramfs.conf
+etc_backup/initramfs-tools/modules
+etc_backup/initramfs-tools/hooks/
+etc_backup/initramfs-tools/update-initramfs.conf
+etc_backup/initramfs-tools/scripts/
+etc_backup/initramfs-tools/scripts/local-top/
+etc_backup/initramfs-tools/scripts/init-bottom/
+etc_backup/initramfs-tools/scripts/panic/
+etc_backup/initramfs-tools/scripts/nfs-bottom/
+etc_backup/initramfs-tools/scripts/nfs-top/
+etc_backup/initramfs-tools/scripts/init-premount/
+etc_backup/initramfs-tools/scripts/init-top/
+etc_backup/initramfs-tools/scripts/local-premount/
+etc_backup/initramfs-tools/scripts/local-bottom/
+etc_backup/initramfs-tools/scripts/nfs-premount/
+etc_backup/plymouth/
+etc_backup/fonts/
+etc_backup/fonts/conf.d/
+etc_backup/fonts/conf.d/40-nonlatin.conf
+etc_backup/fonts/conf.d/80-delicious.conf
+etc_backup/fonts/conf.d/58-dejavu-lgc-sans-mono.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-sans-mono.conf
+etc_backup/fonts/conf.d/48-spacing.conf
+etc_backup/fonts/conf.d/50-user.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-lgc-serif.conf
+etc_backup/fonts/conf.d/20-unhint-small-vera.conf
+etc_backup/fonts/conf.d/49-sansserif.conf
+etc_backup/fonts/conf.d/58-dejavu-lgc-sans.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-lgc-sans.conf
+etc_backup/fonts/conf.d/51-local.conf
+etc_backup/fonts/conf.d/10-scale-bitmap-fonts.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-sans.conf
+etc_backup/fonts/conf.d/65-fonts-persian.conf
+etc_backup/fonts/conf.d/30-metric-aliases.conf
+etc_backup/fonts/conf.d/57-dejavu-serif.conf
+etc_backup/fonts/conf.d/11-lcdfilter-default.conf
+etc_backup/fonts/conf.d/57-dejavu-sans-mono.conf
+etc_backup/fonts/conf.d/10-sub-pixel-rgb.conf
+etc_backup/fonts/conf.d/57-dejavu-sans.conf
+etc_backup/fonts/conf.d/45-latin.conf
+etc_backup/fonts/conf.d/60-generic.conf
+etc_backup/fonts/conf.d/70-no-bitmaps-except-emoji.conf
+etc_backup/fonts/conf.d/45-generic.conf
+etc_backup/fonts/conf.d/58-dejavu-lgc-serif.conf
+etc_backup/fonts/conf.d/69-unifont.conf
+etc_backup/fonts/conf.d/60-latin.conf
+etc_backup/fonts/conf.d/README
+etc_backup/fonts/conf.d/10-yes-antialias.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-serif.conf
+etc_backup/fonts/conf.d/65-nonlatin.conf
+etc_backup/fonts/conf.d/20-unhint-small-dejavu-lgc-sans-mono.conf
+etc_backup/fonts/conf.d/10-hinting-slight.conf
+etc_backup/fonts/conf.d/90-synthetic.conf
+etc_backup/fonts/conf.avail/
+etc_backup/fonts/conf.avail/58-dejavu-lgc-sans-mono.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-sans-mono.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+etc_backup/fonts/conf.avail/58-dejavu-lgc-sans.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-sans.conf
+etc_backup/fonts/conf.avail/57-dejavu-serif.conf
+etc_backup/fonts/conf.avail/57-dejavu-sans-mono.conf
+etc_backup/fonts/conf.avail/57-dejavu-sans.conf
+etc_backup/fonts/conf.avail/58-dejavu-lgc-serif.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-serif.conf
+etc_backup/fonts/conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+etc_backup/fonts/fonts.conf
+etc_backup/default/
+etc_backup/default/useradd
+etc_backup/default/keyboard
+etc_backup/default/motd-news
+etc_backup/default/grub.ucf-dist
+etc_backup/default/locale
+etc_backup/default/console-setup
+etc_backup/default/sysstat
+etc_backup/default/dbus
+etc_backup/default/open-iscsi
+etc_backup/default/mdadm
+etc_backup/default/networkd-dispatcher
+etc_backup/default/grub.d/
+etc_backup/default/intel-microcode
+etc_backup/default/grub
+etc_backup/default/cryptdisks
+etc_backup/default/apport
+etc_backup/default/rsync
+etc_backup/default/ufw
+etc_backup/default/ssh
+etc_backup/default/cron
+etc_backup/default/pollinate
+etc_backup/default/amd64-microcode
+etc_backup/credstore.encrypted/
+etc_backup/landscape/
+etc_backup/sudoers.d/
+etc_backup/sudoers.d/user1_dmesg
+etc_backup/sudoers.d/README
+etc_backup/hosts.deny
+[?2004hbash-5.2# cd ~
+[?2004l[?2004hbash-5.2# cd /root/etc_backup
+[?2004l[?2004hbash-5.2# ls
+[?2004ladduser.conf		console-setup	      default	    groff	     iproute2	    locale.alias    mime.types	    networkd-dispatcher  plymouth    rc5.d	    shadow	       supercat		 update-motd.d
+alternatives		credstore	      deluser.conf  group	     iscsi	    locale.conf     mke2fs.conf     networks		 pm	     rc6.d	    shadow-	       sysctl.conf	 update-notifier
+apparmor		credstore.encrypted   depmod.d	    group-	     issue	    locale.gen	    ModemManager    newt		 polkit-1    rcS.d	    shells	       sysctl.d		 UPower
+apparmor.d		cron.d		      dhcp	    grub.d	     issue.net	    localtime	    modprobe.d	    nftables.conf	 pollinate   resolv.conf    skel	       sysstat		 usb_modeswitch.conf
+apport			cron.daily	      dhcpcd.conf   gshadow	     kernel	    logcheck	    modules	    nsswitch.conf	 profile     rmt	    sos		       systemd		 usb_modeswitch.d
+apt			cron.hourly	      dpkg	    gshadow-	     landscape	    login.defs	    modules-load.d  opt			 profile.d   rpc	    ssh		       terminfo		 vconsole.conf
+bash.bashrc		cron.monthly	      e2scrub.conf  gss		     ldap	    logrotate.conf  motd	    os-release		 protocols   rsyslog.conf   ssl		       thermald		 vim
+bash_completion		crontab		      environment   hdparm.conf      ld.so.cache    logrotate.d     mtab	    overlayroot.conf	 python3     rsyslog.d	    subgid	       timezone		 vmware-tools
+bash_completion.d	cron.weekly	      ethertypes    host.conf	     ld.so.conf     lsb-release     multipath	    PackageKit		 python3.12  screenrc	    subgid-	       tmpfiles.d	 vtrgb
+bindresvport.blacklist	cron.yearly	      fonts	    hosts	     ld.so.conf.d   lvm		    multipath.conf  pam.conf		 qemu	     security	    subuid	       ubuntu-advantage  wgetrc
+binfmt.d		cryptsetup-initramfs  fstab	    hosts.allow      legal	    machine-id	    nanorc	    pam.d		 rc0.d	     selinux	    subuid-	       ucf.conf		 X11
+byobu			crypttab	      fuse.conf     hosts.deny	     libaudit.conf  magic	    needrestart     passwd		 rc1.d	     sensors3.conf  sudo.conf	       udev		 xattr.conf
+ca-certificates		dbus-1		      fwupd	    init.d	     libblockdev    magic.mime	    netconfig	    passwd-		 rc2.d	     sensors.d	    sudoers	       udisks2		 xdg
+ca-certificates.conf	debconf.conf	      gai.conf	    initramfs-tools  libibverbs.d   manpath.config  netplan	    perl		 rc3.d	     services	    sudoers.d	       ufw		 xml
+cloud			debian_version	      gnutls	    inputrc	     libnl-3	    mdadm	    network	    pki			 rc4.d	     sgml	    sudo_logsrvd.conf  update-manager	 zsh_command_not_found
+[?2004hbash-5.2# [Kbash-5.2# [Kbash-5.2# [Kbash-5.2# [Kbash-5.2# mkdir -[[Kp /root/etc_backup_gzip
+[?2004l[?2004hbash-5.2# mkdir -p /root/etc_backup_gzip[K[K[K[K7zip
+[?2004l[?2004hbash-5.2# tar -xzf /rot[Kot//[Ketc_backup.tar.gz - [KC /root/etc_backup_b[Kgzip/
+[?2004l[?2004hbash-5.2# tar -xzf /root/etc_backup.tar.gz -C /root/etc_backup_gzip/[C[1P[1@7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[K[1P/[1P/[1P/[1P/[K[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[1P/[K[1P/[1P/[1P/[1P/[K[1P/[1P/[1P/[C[K[K[K[K[K[K[K7[K7я ч [K[K[K[K[K7z x ethertypes [K[K[K[K[K[K[K[K[Kc_baac[K[Kck[K[K[K[K[K_b[K[K[K[K[K[K[K/root/etc_backup.tar..[K7z[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[Ct /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[Ca /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[Cr /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C- /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[1P /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C7 /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[Cz /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[Cx /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P/root/etc_backup.tar.7z[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -o [K/rio[K[Koo[K[K[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cкщ[K[Kroot.[K/etc_backup_7zip
+[?2004lbash: 7z: command not found
+[?2004hbash-5.2# 7z x /root/etc_backup.tar.7z -o/root/etc_backup_7zip[1@з[1P[1@p[C[C[1@i[1@[[1P[1@p
+[?2004lbash: p7zip: command not found
+[?2004hbash-5.2# which 7zo[Kip
+[?2004l[?2004hbash-5.2# which 7zip[Ks[Kwhi[K[K[Kwhich 7z
+[?2004l[?2004hbash-5.2# echo ""
+[?2004l
+[?2004hbash-5.2# ыгвщ [K[K[K[K[Ksudo yum install p7zip-full -y
+[?2004lsudo: yum: command not found
+[?2004hbash-5.2# sudo yum install p7zip-full -y[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K apr [K[K[Kt i[K[K[Kpt instral[K[K[Kall p7zip-full -y
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  7zip
+Suggested packages:
+  7zip-standalone 7zip-rar
+The following NEW packages will be installed:
+  7zip p7zip-full
+0 upgraded, 2 newly installed, 0 to remove and 83 not upgraded.
+Need to get 1,849 kB of archives.
+After this operation, 6,318 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble/universe amd64 7zip amd64 23.01+dfsg-11 [1,846 kB]
+[33m1% [1 7zip 11.8 kB/1,846 kB 1%][0m[33m                               90% [Working][0m             Get:2 http://ru.archive.ubuntu.com/ubuntu noble/universe amd64 p7zip-full all 16.02+transitional.1 [2,500 B]
+[33m90% [2 p7zip-full 2,500 B/2,500 B 100%][0m[33m                                       100% [Working][0m              Fetched 1,849 kB in 1s (2,495 kB/s)
+
+7[0;45r8[1ASelecting previously unselected package 7zip.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124938 files and directories currently installed.)
+Preparing to unpack .../7zip_23.01+dfsg-11_amd64.deb ...
+7[46;0f[42m[30mProgress: [  0%][49m[39m [.................................................................................................................................................................] 87[46;0f[42m[30mProgress: [ 11%][49m[39m [#################................................................................................................................................................] 8Unpacking 7zip (23.01+dfsg-11) ...
+7[46;0f[42m[30mProgress: [ 22%][49m[39m [###################################..............................................................................................................................] 8Selecting previously unselected package p7zip-full.
+Preparing to unpack .../p7zip-full_16.02+transitional.1_all.deb ...
+7[46;0f[42m[30mProgress: [ 33%][49m[39m [#####################################################............................................................................................................] 8Unpacking p7zip-full (16.02+transitional.1) ...
+7[46;0f[42m[30mProgress: [ 44%][49m[39m [#######################################################################..........................................................................................] 8Setting up 7zip (23.01+dfsg-11) ...
+7[46;0f[42m[30mProgress: [ 56%][49m[39m [#########################################################################################........................................................................] 87[46;0f[42m[30mProgress: [ 67%][49m[39m [###########################################################################################################......................................................] 8Setting up p7zip-full (16.02+transitional.1) ...
+7[46;0f[42m[30mProgress: [ 78%][49m[39m [#############################################################################################################################....................................] 87[46;0f[42m[30mProgress: [ 89%][49m[39m [###############################################################################################################################################..................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;46r8[1A[JScanning processes... [                                                                                                                                                               ]Scanning processes... [=                                                                                                                                                              ]Scanning processes... [==                                                                                                                                                             ]Scanning processes... [===                                                                                                                                                            ]Scanning processes... [=====                                                                                                                                                          ]Scanning processes... [======                                                                                                                                                         ]Scanning processes... [=======                                                                                                                                                        ]Scanning processes... [=========                                                                                                                                                      ]Scanning processes... [==========                                                                                                                                                     ]Scanning processes... [===========                                                                                                                                                    ]Scanning processes... [=============                                                                                                                                                  ]Scanning processes... [==============                                                                                                                                                 ]Scanning processes... [===============                                                                                                                                                ]Scanning processes... [=================                                                                                                                                              ]Scanning processes... [==================                                                                                                                                             ]Scanning processes... [===================                                                                                                                                            ]Scanning processes... [=====================                                                                                                                                          ]Scanning processes... [======================                                                                                                                                         ]Scanning processes... [=======================                                                                                                                                        ]Scanning processes... [=========================                                                                                                                                      ]Scanning processes... [==========================                                                                                                                                     ]Scanning processes... [===========================                                                                                                                                    ]Scanning processes... [=============================                                                                                                                                  ]Scanning processes... [==============================                                                                                                                                 ]Scanning processes... [===============================                                                                                                                                ]Scanning processes... [=================================                                                                                                                              ]Scanning processes... [==================================                                                                                                                             ]Scanning processes... [===================================                                                                                                                            ]Scanning processes... [=====================================                                                                                                                          ]Scanning processes... [======================================                                                                                                                         ]Scanning processes... [=======================================                                                                                                                        ]Scanning processes... [=========================================                                                                                                                      ]Scanning processes... [==========================================                                                                                                                     ]Scanning processes... [===========================================                                                                                                                    ]Scanning processes... [=============================================                                                                                                                  ]Scanning processes... [==============================================                                                                                                                 ]Scanning processes... [===============================================                                                                                                                ]Scanning processes... [=================================================                                                                                                              ]Scanning processes... [==================================================                                                                                                             ]Scanning processes... [===================================================                                                                                                            ]Scanning processes... [=====================================================                                                                                                          ]Scanning processes... [======================================================                                                                                                         ]Scanning processes... [=======================================================                                                                                                        ]Scanning processes... [========================================================                                                                                                       ]Scanning processes... [==========================================================                                                                                                     ]Scanning processes... [===========================================================                                                                                                    ]Scanning processes... [============================================================                                                                                                   ]Scanning processes... [==============================================================                                                                                                 ]Scanning processes... [===============================================================                                                                                                ]Scanning processes... [================================================================                                                                                               ]Scanning processes... [==================================================================                                                                                             ]Scanning processes... [===================================================================                                                                                            ]Scanning processes... [====================================================================                                                                                           ]Scanning processes... [======================================================================                                                                                         ]Scanning processes... [=======================================================================                                                                                        ]Scanning processes... [========================================================================                                                                                       ]Scanning processes... [==========================================================================                                                                                     ]Scanning processes... [===========================================================================                                                                                    ]Scanning processes... [============================================================================                                                                                   ]Scanning processes... [==============================================================================                                                                                 ]Scanning processes... [===============================================================================                                                                                ]Scanning processes... [================================================================================                                                                               ]Scanning processes... [==================================================================================                                                                             ]Scanning processes... [===================================================================================                                                                            ]Scanning processes... [====================================================================================                                                                           ]Scanning processes... [======================================================================================                                                                         ]Scanning processes... [=======================================================================================                                                                        ]Scanning processes... [========================================================================================                                                                       ]Scanning processes... [==========================================================================================                                                                     ]Scanning processes... [===========================================================================================                                                                    ]Scanning processes... [============================================================================================                                                                   ]Scanning processes... [==============================================================================================                                                                 ]Scanning processes... [===============================================================================================                                                                ]Scanning processes... [================================================================================================                                                               ]Scanning processes... [==================================================================================================                                                             ]Scanning processes... [===================================================================================================                                                            ]Scanning processes... [====================================================================================================                                                           ]Scanning processes... [======================================================================================================                                                         ]Scanning processes... [=======================================================================================================                                                        ]Scanning processes... [========================================================================================================                                                       ]Scanning processes... [==========================================================================================================                                                     ]Scanning processes... [===========================================================================================================                                                    ]Scanning processes... [============================================================================================================                                                   ]Scanning processes... [=============================================================================================================                                                  ]Scanning processes... [===============================================================================================================                                                ]Scanning processes... [================================================================================================================                                               ]Scanning processes... [=================================================================================================================                                              ]Scanning processes... [===================================================================================================================                                            ]Scanning processes... [====================================================================================================================                                           ]Scanning processes... [=====================================================================================================================                                          ]Scanning processes... [=======================================================================================================================                                        ]Scanning processes... [========================================================================================================================                                       ]Scanning processes... [=========================================================================================================================                                      ]Scanning processes... [===========================================================================================================================                                    ]Scanning processes... [============================================================================================================================                                   ]Scanning processes... [=============================================================================================================================                                  ]Scanning processes... [===============================================================================================================================                                ]Scanning processes... [================================================================================================================================                               ]Scanning processes... [=================================================================================================================================                              ]Scanning processes... [===================================================================================================================================                            ]Scanning processes... [====================================================================================================================================                           ]Scanning processes... [=====================================================================================================================================                          ]Scanning processes... [=======================================================================================================================================                        ]Scanning processes... [========================================================================================================================================                       ]Scanning processes... [=========================================================================================================================================                      ]Scanning processes... [===========================================================================================================================================                    ]Scanning processes... [============================================================================================================================================                   ]Scanning processes... [=============================================================================================================================================                  ]Scanning processes... [===============================================================================================================================================                ]Scanning processes... [================================================================================================================================================               ]Scanning processes... [=================================================================================================================================================              ]Scanning processes... [===================================================================================================================================================            ]Scanning processes... [====================================================================================================================================================           ]Scanning processes... [=====================================================================================================================================================          ]Scanning processes... [=======================================================================================================================================================        ]Scanning processes... [========================================================================================================================================================       ]Scanning processes... [=========================================================================================================================================================      ]Scanning processes... [===========================================================================================================================================================    ]Scanning processes... [============================================================================================================================================================   ]Scanning processes... [=============================================================================================================================================================  ]Scanning processes... [===============================================================================================================================================================]Scanning processes...                                                                                                                                                                  
+Scanning candidates... [                                                                                                                                                              ]Scanning candidates... [===============                                                                                                                                               ]Scanning candidates... [===============================                                                                                                                               ]Scanning candidates... [===============================================                                                                                                               ]Scanning candidates... [===============================================================                                                                                               ]Scanning candidates... [===============================================================================                                                                               ]Scanning candidates... [==============================================================================================                                                                ]Scanning candidates... [==============================================================================================================                                                ]Scanning candidates... [==============================================================================================================================                                ]Scanning candidates... [==============================================================================================================================================                ]Scanning candidates... [==============================================================================================================================================================]Scanning candidates...                                                                                                                                                                 
+Scanning linux images... [                                                                                                                                                            ]Scanning linux images... [=======================================                                                                                                                     ]Scanning linux images... [==============================================================================                                                                              ]Scanning linux images... [=====================================================================================================================                                       ]Scanning linux images... [============================================================================================================================================================]Scanning linux images...                                                                                                                                                               
+
+Pending kernel upgrade!
+Running kernel version:
+  6.8.0-55-generic
+Diagnostics:
+  The currently running kernel version is not the expected kernel version 6.8.0-85-generic.
+
+Restarting the system to load the new kernel will not be handled automatically, so you should consider rebooting.
+
+Restarting services...
+
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ root @ session #27: script[1636]
+ root @ session #32: bash[1822,1834], script[1833], sshd[1763]
+ root @ user manager service: systemd[1534]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004hbash-5.2# 7z x /root/etc_backup.tar.7z -0[Ko/eo[K[Kroor[Kt/etc_backup_7zip
+[?2004l
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=en_US.UTF-8 Threads:2 OPEN_MAX:1024
+
+Scanning the drive for archives:
+  0M Scan /root/                1 file, 3471360 bytes (3390 KiB)
+
+Extracting archive: /root/etc_backup.tar.7z
+WARNING:
+/root/etc_backup.tar.7z
+Cannot open the file as [7z] archive
+The file is open as [tar] archive
+
+--
+Path = /root/etc_backup.tar.7z
+Open WARNING: Cannot open the file as [7z] archive
+Type = tar
+Physical Size = 3471360
+Headers Size = 897536
+Code Page = UTF-8
+Characteristics = GNU UTF8 MaxUnicode=337
+
+  0%    ERROR: Dangerous symbolic link path was ignored : etc_backup/modules-load.d/modules.conf : ../modules
+ 35% 575        ERROR: Dangerous symbolic link path was ignored : etc_backup/sysctl.d/99-sysctl.conf : ../sysctl.conf
+ 36% 612        ERROR: Dangerous symbolic link path was ignored : etc_backup/xdg/systemd/user : ../../systemd/user
+ 47% 696        ERROR: Dangerous symbolic link path was ignored : etc_backup/default/locale : ../locale.conf
+ 99% 1078         
+Sub items Errors: 4
+
+Archives with Errors: 1
+
+Sub items Errors: 4
+[?2004hbash-5.2# 7z x /root/etc_backup.tar.7z -o/root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[C[Kroo[K[K[Kcd[K[Kro[K[Kcd ro[K[K/root/etc_backup
+[?2004l[?2004hbash-5.2# ls
+[?2004ladduser.conf		crontab		      gnutls	       ldap	       manpath.config	    opt		      rc2.d	     sos		udev
+alternatives		cron.weekly	      groff	       ld.so.cache     mdadm		    os-release	      rc3.d	     ssh		udisks2
+apparmor		cron.yearly	      group	       ld.so.conf      mime.types	    overlayroot.conf  rc4.d	     ssl		ufw
+apparmor.d		cryptsetup-initramfs  group-	       ld.so.conf.d    mke2fs.conf	    PackageKit	      rc5.d	     subgid		update-manager
+apport			crypttab	      grub.d	       legal	       ModemManager	    pam.conf	      rc6.d	     subgid-		update-motd.d
+apt			dbus-1		      gshadow	       libaudit.conf   modprobe.d	    pam.d	      rcS.d	     subuid		update-notifier
+bash.bashrc		debconf.conf	      gshadow-	       libblockdev     modules		    passwd	      resolv.conf    subuid-		UPower
+bash_completion		debian_version	      gss	       libibverbs.d    modules-load.d	    passwd-	      rmt	     sudo.conf		usb_modeswitch.conf
+bash_completion.d	default		      hdparm.conf      libnl-3	       motd		    perl	      rpc	     sudoers		usb_modeswitch.d
+bindresvport.blacklist	deluser.conf	      host.conf        locale.alias    mtab		    pki		      rsyslog.conf   sudoers.d		vconsole.conf
+binfmt.d		depmod.d	      hosts	       locale.conf     multipath	    plymouth	      rsyslog.d      sudo_logsrvd.conf	vim
+byobu			dhcp		      hosts.allow      locale.gen      multipath.conf	    pm		      screenrc	     supercat		vmware-tools
+ca-certificates		dhcpcd.conf	      hosts.deny       localtime       nanorc		    polkit-1	      security	     sysctl.conf	vtrgb
+ca-certificates.conf	dpkg		      init.d	       logcheck        needrestart	    pollinate	      selinux	     sysctl.d		wgetrc
+cloud			e2scrub.conf	      initramfs-tools  login.defs      netconfig	    profile	      sensors3.conf  sysstat		X11
+console-setup		environment	      inputrc	       logrotate.conf  netplan		    profile.d	      sensors.d      systemd		xattr.conf
+credstore		ethertypes	      iproute2	       logrotate.d     network		    protocols	      services	     terminfo		xdg
+credstore.encrypted	fonts		      iscsi	       lsb-release     networkd-dispatcher  python3	      sgml	     thermald		xml
+cron.d			fstab		      issue	       lvm	       networks		    python3.12	      shadow	     timezone		zsh_command_not_found
+cron.daily		fuse.conf	      issue.net        machine-id      newt		    qemu	      shadow-	     tmpfiles.d
+cron.hourly		fwupd		      kernel	       magic	       nftables.conf	    rc0.d	      shells	     ubuntu-advantage
+cron.monthly		gai.conf	      landscape        magic.mime      nsswitch.conf	    rc1.d	      skel	     ucf.conf
+[?2004hbash-5.2# lscd /root/etc_backup_7s[Kzip
+[?2004l[?2004hbash-5.2# ls
+[?2004letc_backup
+[?2004hbash-5.2# lscd /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[C[C[C[C[C[C[C[C[C[C7z x /root/etc_backup.tar.7z -o/root/etc_backup_7zip[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-o etc_backup/[C[K)[K_7[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K -o [K/ro[K[K[K/or[K[K~.[K/r[K[Kror[K[K[K/[K./ror[Ko[Kщ[Ko[Kr[K[K[K[K[K[Kroot/et[K[K[K[K[K[K[K[K[K[K-o/e[Kro[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmki[Kdir etc_backup/[K[K[K[K[K[K[K[K[K[K[K-p /root/etc_backup.[K_)[K[K)[K_7zip
+[?2004l[?2004hbash-5.2# mkdir -p /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[C[C[C[C[C[C[C[C[C[C7z x /root/etc_backup.tar.7z -o/root/etc_backup_7zip[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kroot/et[K[K[K[K[K[K[K[K[K[K^C[?2004l[?2004h[?2004l
+[?2004hbash-5.2# mkdir -p /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[Cls[Kcd /root/etc_backup[C[C[C[C[C[C[C[C[C[C7z x /root/etc_backup.tar.7z -o/root/etc_backup_7zip /root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+
+Command Line Error:
+Too short switch:
+-o
+[?2004hbash-5.2# 7z x /root/etc_backup.tar.7z -o /root/etc_backup_7zip[1P/root/etc_backup_7zip./root/etc_backup_7zip[1P/root/etc_backup_7zip[C/root/etc_backup_7zip[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+ 64-bit locale=en_US.UTF-8 Threads:2 OPEN_MAX:1024
+
+Scanning the drive for archives:
+  0M Scan /root/                1 file, 3471360 bytes (3390 KiB)
+
+Extracting archive: /root/etc_backup.tar.7z
+WARNING:
+/root/etc_backup.tar.7z
+Cannot open the file as [7z] archive
+The file is open as [tar] archive
+
+--
+Path = /root/etc_backup.tar.7z
+Open WARNING: Cannot open the file as [7z] archive
+Type = tar
+Physical Size = 3471360
+Headers Size = 897536
+Code Page = UTF-8
+Characteristics = GNU UTF8 MaxUnicode=337
+
+  0%    
+Would you like to replace the existing file:
+  Path:     //root/etc_backup_7zip/etc_backup/rc4.d/S01uuidd
+  Size:     15 bytes (1 KiB)
+  Modified: 2025-10-17 15:07:19
+with the file from archive:
+  Path:     etc_backup/rc4.d/S01uuidd
+  Size:     15 bytes (1 KiB)
+  Modified: 2025-02-16 21:04:48
+? (Y)es / (N)o / (A)lways / (S)kip all / A(u)to rename all / (Q)uit? y
+
+  0% 2      
+Would you like to replace the existing file:
+  Path:     //root/etc_backup_7zip/etc_backup/rc4.d/S01grub-common
+  Size:     21 bytes (1 KiB)
+  Modified: 2025-10-17 15:07:19
+with the file from archive:
+  Path:     etc_backup/rc4.d/S01grub-common
+  Size:     21 bytes (1 KiB)
+  Modified: 2025-03-12 18:07:53
+? (Y)es / (N)o / (A)lways / (S)kip all / A(u)to rename all / (Q)uit? t
+(Y)es / (N)o / (A)lways / (S)kip all / A(u)to rename all / (Q)uit? t y
+
+  0% 2      
+Would you like to replace the existing file:
+  Path:     //root/etc_backup_7zip/etc_backup/rc4.d/S01rsync
+  Size:     15 bytes (1 KiB)
+  Modified: 2025-10-17 15:07:19
+with the file from archive:
+  Path:     etc_backup/rc4.d/S01rsync
+  Size:     15 bytes (1 KiB)
+  Modified: 2025-02-16 21:04:48
+? (Y)es / (N)o / (A)lways / (S)kip all / A(u)to rename all / (Q)uit? A
+
+  0% 2      ERROR: Dangerous symbolic link path was ignored : etc_backup/modules-load.d/modules.conf : ../modules
+ 35% 575        ERROR: Dangerous symbolic link path was ignored : etc_backup/sysctl.d/99-sysctl.conf : ../sysctl.conf
+ 36% 612        ERROR: Dangerous symbolic link path was ignored : etc_backup/xdg/systemd/user : ../../systemd/user
+ 47% 696        ERROR: Dangerous symbolic link path was ignored : etc_backup/default/locale : ../locale.conf
+ 99% 1078         
+Sub items Errors: 4
+
+Archives with Errors: 1
+
+Sub items Errors: 4
+[?2004hbash-5.2# exit
+[?2004lexit
+
+Script done on 2025-10-17 15:15:33+00:00 [COMMAND_EXIT_CODE="2"]
