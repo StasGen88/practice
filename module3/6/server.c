@@ -1,12 +1,7 @@
-/* server.c
-   Сервер группового чата через System V message queue.
-   Компиляция: gcc server.c -o server
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <strings.h>    // for strcasecmp
+#include <strings.h> 
 #include <sys/ipc.h>
 #include <sys/msg.h>
 #include <signal.h>
