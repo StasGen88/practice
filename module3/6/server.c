@@ -6,7 +6,8 @@
 #include <sys/msg.h>
 #include <signal.h>
 #include <unistd.h>
-#include <errno.h>
+#include <errno.h
+
 
 #define FTOK_PATH "/tmp"
 #define FTOK_PROJ_ID 'S'
